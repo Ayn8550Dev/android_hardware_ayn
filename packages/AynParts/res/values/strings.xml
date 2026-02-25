@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- AynParts main -->
+    <string name="aynparts_app_name">AynParts</string>
+    <string name="ayn_panel_title">Gamepad</string>
+    <string name="ayn_panel_summary">Buttons, layout</string>
+</resources>

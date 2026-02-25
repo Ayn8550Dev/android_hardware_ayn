@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          android:sharedUserId="android.uid.system"
+          package="org.lineageos.settings.ayn">
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/aynparts_app_name"
+        android:theme="@style/Theme.SubSettingsBase.Expressive"
+        android:defaultToDeviceProtectedStorage="true"
+        android:directBootAware="true">
+
+        <!-- ConfigPanelSearchIndexablesProvider -->
+        <provider
+            android:name=".ConfigPanelSearchIndexablesProvider"
+            android:authorities="org.lineageos.settings.ayn"
+            android:multiprocess="false"
+            android:grantUriPermissions="true"
+            android:permission="android.permission.READ_SEARCH_INDEXABLES"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.content.action.SEARCH_INDEXABLES_PROVIDER" />
+            </intent-filter>
+        </provider>
+
+        <!-- AynSettingsActivity -->
+        <activity
+            android:name=".AynSettingsActivity"
+            android:label="@string/ayn_panel_title"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.settings.action.IA_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data
+                android:name="com.android.settings.category"
+                android:value="com.android.settings.category.ia.homepage"/>
+            <meta-data
+                android:name="com.android.settings.group_key"
+                android:value="top_level_personalize_category"/>
+            <meta-data
+                android:name="com.android.settings.keyhint"
+                android:value="top_level_ayn"/>
+            <meta-data
+                android:name="com.android.settings.summary"
+                android:resource="@string/ayn_panel_summary" />
+             <meta-data
+                android:name="com.android.settings.icon"
+                android:resource="@drawable/ic_gamepad" />
+             <meta-data
+                android:name="com.android.settings.icon_color_scheme"
+                android:value="blue" />
+            <meta-data
+                android:name="com.android.settings.order"
+                android:value="-256" />
+        </activity>
+    </application>
+</manifest>
