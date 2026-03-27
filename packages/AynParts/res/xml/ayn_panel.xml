@@ -5,7 +5,51 @@
 -->
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/ayn_panel_title">
 
+    <!-- Gamepad buttons category -->
+    <PreferenceCategory
+        android:key="gamepad_buttons_category"
+        android:title="@string/gamepad_buttons_category_title">
+
+        <!-- Gamepad layout preference -->
+        <org.lineageos.settings.ayn.preferences.NodeListPreference
+            android:key="gamepad_layout"
+            android:title="@string/gamepad_layout_title"
+            android:entries="@array/gamepad_layout_entries"
+            android:entryValues="@array/gamepad_layout_values"
+            app:node="/sys/class/moorechip-joystick/joystick/layout"
+            app:useSimpleSummaryProvider="true" />
+
+        <!-- Gamepad trigger mode preference -->
+        <org.lineageos.settings.ayn.preferences.NodeListPreference
+            android:key="gamepad_trigger_mode"
+            android:title="@string/gamepad_trigger_mode_title"
+            android:entries="@array/gamepad_trigger_mode_entries"
+            android:entryValues="@array/gamepad_trigger_mode_values"
+            app:node="/sys/class/moorechip-joystick/joystick/triggers"
+            app:useSimpleSummaryProvider="true" />
+
+        <!-- Gamepad mappable 0 preference -->
+        <org.lineageos.settings.ayn.preferences.NodeListPreference
+            android:key="gamepad_mappable_0"
+            android:title="@string/gamepad_mappable_0_title"
+            android:entries="@array/gamepad_mappable_entries"
+            android:entryValues="@array/gamepad_mappable_values"
+            app:node="/sys/class/moorechip-joystick/joystick/m0_function"
+            app:sibling="gamepad_mappable_1"
+            app:useSimpleSummaryProvider="true" />
+
+        <!-- Gamepad mappable 1 preference -->
+        <org.lineageos.settings.ayn.preferences.NodeListPreference
+            android:key="gamepad_mappable_1"
+            android:title="@string/gamepad_mappable_1_title"
+            android:entries="@array/gamepad_mappable_entries"
+            android:entryValues="@array/gamepad_mappable_values"
+            app:node="/sys/class/moorechip-joystick/joystick/m1_function"
+            app:sibling="gamepad_mappable_0"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
 </PreferenceScreen>

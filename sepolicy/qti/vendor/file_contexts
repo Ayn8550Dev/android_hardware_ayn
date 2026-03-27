@@ -1,0 +1,2 @@
+# Moorechip joystick
+/sys/devices/virtual/moorechip-joystick/joystick(/.*)?    u:object_r:vendor_sysfs_joystick:s0
