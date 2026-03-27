@@ -15,3 +15,5 @@ allow devicesettings_app {
 
 allow devicesettings_app system_app_data_file:dir create_dir_perms;
 allow devicesettings_app system_app_data_file:{ file lnk_file } create_file_perms;
+
+rw_dir_file(devicesettings_app, vendor_sysfs_joystick)

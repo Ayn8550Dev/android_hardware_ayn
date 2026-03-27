@@ -7,12 +7,23 @@
           android:sharedUserId="android.uid.system"
           package="org.lineageos.settings.ayn">
 
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
     <application
         android:icon="@mipmap/ic_launcher"
         android:label="@string/device_settings_app_name"
         android:theme="@style/Theme.SubSettingsBase.Expressive"
         android:defaultToDeviceProtectedStorage="true"
         android:directBootAware="true">
+
+        <!-- BootCompletedReceiver -->
+        <receiver
+            android:name=".BootCompletedReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
 
         <!-- AynSettingsActivity -->
         <activity
