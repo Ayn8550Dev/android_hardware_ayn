@@ -8,4 +8,41 @@
     <string name="aynparts_app_name">AynParts</string>
     <string name="ayn_panel_title">Gamepad</string>
     <string name="ayn_panel_summary">Buttons, layout</string>
+
+    <!-- Gamepad layout category -->
+    <string name="gamepad_buttons_category_title">Buttons</string>
+    <string name="gamepad_layout_title">Layout</string>
+    <string name="gamepad_trigger_mode_title">Trigger mode</string>
+    <string name="gamepad_mappable_0_title">M1</string>
+    <string name="gamepad_mappable_1_title">M2</string>
+
+    <!-- Gamepad layout entries -->
+    <string name="layout_xbox">Xbox</string>
+    <string name="layout_nintendo">Nintendo</string>
+
+    <!-- Gamepad trigger mode entries -->
+    <string name="trigger_mode_both">Both</string>
+    <string name="trigger_mode_analog">Analog</string>
+    <string name="trigger_mode_digital">Digital</string>
+
+    <!-- Gamepad mappable entries -->
+    <string name="mappable_none">None</string>
+    <string name="mappable_home">HOME</string>
+    <string name="mappable_select">SELECT</string>
+    <string name="mappable_start">START</string>
+    <string name="mappable_back">BACK</string>
+    <string name="mappable_a">A</string>
+    <string name="mappable_b">B</string>
+    <string name="mappable_x">X</string>
+    <string name="mappable_y">Y</string>
+    <string name="mappable_l1">L1</string>
+    <string name="mappable_l2">L2</string>
+    <string name="mappable_l3">L3</string>
+    <string name="mappable_r1">R1</string>
+    <string name="mappable_r2">R2</string>
+    <string name="mappable_r3">R3</string>
+    <string name="mappable_down">DOWN</string>
+    <string name="mappable_up">UP</string>
+    <string name="mappable_left">LEFT</string>
+    <string name="mappable_right">RIGHT</string>
 </resources>

@@ -7,6 +7,8 @@
           android:sharedUserId="android.uid.system"
           package="org.lineageos.settings.ayn">
 
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
     <application
         android:icon="@mipmap/ic_launcher"
         android:label="@string/aynparts_app_name"
@@ -26,6 +28,15 @@
                 <action android:name="android.content.action.SEARCH_INDEXABLES_PROVIDER" />
             </intent-filter>
         </provider>
+
+        <!-- BootCompletedReceiver -->
+        <receiver
+            android:name=".BootCompletedReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
 
         <!-- AynSettingsActivity -->
         <activity

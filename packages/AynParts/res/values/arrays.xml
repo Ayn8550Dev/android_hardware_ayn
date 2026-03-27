@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Gamepad layout entries -->
+    <string-array name="gamepad_layout_entries">
+        <item>@string/layout_xbox</item>
+        <item>@string/layout_nintendo</item>
+    </string-array>
+
+    <!-- Gamepad layout values -->
+    <string-array name="gamepad_layout_values" translatable="false">
+        <item>xbox</item>
+        <item>nintendo</item>
+    </string-array>
+
+    <!-- Gamepad trigger mode entries -->
+    <string-array name="gamepad_trigger_mode_entries">
+        <item>@string/trigger_mode_both</item>
+        <item>@string/trigger_mode_analog</item>
+        <item>@string/trigger_mode_digital</item>
+    </string-array>
+
+    <!-- Gamepad trigger mode values -->
+    <string-array name="gamepad_trigger_mode_values" translatable="false">
+        <item>both</item>
+        <item>analog</item>
+        <item>digital</item>
+    </string-array>
+
+    <!-- Gamepad mappable entries -->
+    <string-array name="gamepad_mappable_entries">
+        <item>@string/mappable_none</item>
+        <item>@string/mappable_home</item>
+        <item>@string/mappable_select</item>
+        <item>@string/mappable_start</item>
+        <item>@string/mappable_back</item>
+        <item>@string/mappable_a</item>
+        <item>@string/mappable_b</item>
+        <item>@string/mappable_x</item>
+        <item>@string/mappable_y</item>
+        <item>@string/mappable_l1</item>
+        <item>@string/mappable_l2</item>
+        <item>@string/mappable_l3</item>
+        <item>@string/mappable_r1</item>
+        <item>@string/mappable_r2</item>
+        <item>@string/mappable_r3</item>
+        <item>@string/mappable_down</item>
+        <item>@string/mappable_up</item>
+        <item>@string/mappable_left</item>
+        <item>@string/mappable_right</item>
+    </string-array>
+
+    <!-- Gamepad mappable values -->
+    <string-array name="gamepad_mappable_values" translatable="false">
+        <item>none</item>
+        <item>home</item>
+        <item>select</item>
+        <item>start</item>
+        <item>back</item>
+        <item>a</item>
+        <item>b</item>
+        <item>x</item>
+        <item>y</item>
+        <item>l1</item>
+        <item>l2</item>
+        <item>l3</item>
+        <item>r1</item>
+        <item>r2</item>
+        <item>r3</item>
+        <item>down</item>
+        <item>up</item>
+        <item>left</item>
+        <item>right</item>
+    </string-array>
+</resources>
