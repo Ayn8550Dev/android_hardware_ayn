@@ -69,5 +69,12 @@
                 android:name="com.android.settings.order"
                 android:value="-256" />
         </activity>
+
+        <!-- CalibrationActivity -->
+        <activity
+            android:name=".joystick.CalibrationActivity"
+            android:label="@string/calibration_title"
+            android:exported="false"
+            android:screenOrientation="sensorLandscape" />
     </application>
 </manifest>

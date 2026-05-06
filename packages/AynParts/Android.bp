@@ -14,8 +14,22 @@ android_app {
     system_ext_specific: true,
 
     static_libs: [
+        "androidx.activity_activity-compose",
+        "androidx.compose.foundation_foundation",
+        "androidx.compose.foundation_foundation-layout",
+        "androidx.compose.material3_material3",
+        "androidx.compose.runtime_runtime",
+        "androidx.compose.ui_ui",
+        "androidx.compose.ui_ui-graphics",
+        "androidx.compose.ui_ui-geometry",
+        "androidx.compose.ui_ui-unit",
+        "androidx.compose.animation_animation",
+        "androidx.compose.animation_animation-core",
         "androidx.core_core",
+        "androidx.lifecycle_lifecycle-viewmodel-compose",
+        "androidx.lifecycle_lifecycle-runtime-compose",
         "androidx.preference_preference",
+        "kotlinx_coroutines",
         "org.lineageos.settings.resources",
     ],
 
