@@ -4,3 +4,16 @@
 -keep class org.lineageos.settings.ayn.* {
   *;
 }
+-keep class org.lineageos.settings.ayn.joystick.** {
+  *;
+}
+-keep class org.lineageos.settings.ayn.joystick.components.** {
+  *;
+}
+
+# Compose
+-dontwarn androidx.compose.**
+-keep class androidx.compose.** { *; }
+-keepclassmembers class * {
+    @androidx.compose.runtime.Composable <methods>;
+}

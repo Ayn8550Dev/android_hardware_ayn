@@ -50,4 +50,19 @@
             app:node="/sys/class/moorechip-joystick/joystick/m1_function"
             app:useSimpleSummaryProvider="true" />
     </PreferenceCategory>
+
+    <!-- Gamepad joystick category -->
+    <PreferenceCategory
+        android:key="joystick_category"
+        android:title="@string/joystick_category_title">
+
+        <!-- Joystick calibration preference  -->
+        <Preference
+            android:key="joystick_calibration"
+            android:title="@string/joystick_calibration_title"
+            android:summary="@string/joystick_calibration_summary" >
+            <intent android:targetPackage="org.lineageos.settings.ayn"
+                    android:targetClass="org.lineageos.settings.ayn.joystick.CalibrationActivity" />
+        </Preference>
+    </PreferenceCategory>
 </PreferenceScreen>
