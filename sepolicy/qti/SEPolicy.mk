@@ -3,5 +3,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+BOARD_VENDOR_SEPOLICY_DIRS += \
+    hardware/ayn/sepolicy/qti/vendor
+
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
     hardware/ayn/sepolicy/qti/private

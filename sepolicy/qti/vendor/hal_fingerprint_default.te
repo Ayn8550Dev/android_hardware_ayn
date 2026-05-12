@@ -1,0 +1,11 @@
+add_service(hal_fingerprint_default, hal_fingerprint_vndservice)
+binder_call(hal_fingerprint_default, hal_fingerprint_default)
+vndbinder_use(hal_fingerprint_default)
+
+allow hal_fingerprint_default {
+    fps_device
+    graphics_device
+    input_device
+    tee_device
+    uhid_device
+}:chr_file rw_file_perms;
