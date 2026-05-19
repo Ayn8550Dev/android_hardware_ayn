@@ -6,7 +6,7 @@
 <resources>
     <!-- AynParts main -->
     <string name="ayn_panel_title">Gamepad</string>
-    <string name="ayn_panel_summary">Buttons, layout, joystick calibration</string>
+    <string name="ayn_panel_summary">Buttons, layout, lighting, joystick calibration</string>
 
     <!-- Gamepad layout category -->
     <string name="gamepad_buttons_category_title">Buttons</string>
@@ -43,6 +43,25 @@
     <string name="mappable_up">UP</string>
     <string name="mappable_left">LEFT</string>
     <string name="mappable_right">RIGHT</string>
+
+    <!-- LED lights -->
+    <string name="lighting_category_title">Lighting</string>
+    <string name="led_lights_title">LED lights</string>
+    <string name="led_lights_summary">Set device light color and brightness</string>
+    <string name="led_settings_title">LED Lights</string>
+    <string name="led_target_title">Apply to</string>
+    <string name="led_target_left_side">Left side</string>
+    <string name="led_target_right_side">Right side</string>
+    <string name="led_target_all">All lights</string>
+    <string name="led_enabled">Device lighting</string>
+    <string name="led_enabled_summary">Controls all stick and strip LEDs</string>
+    <string name="led_strip_lights_enabled">Strip lights</string>
+    <string name="led_color_title">Color</string>
+    <string name="led_brightness">Brightness</string>
+    <string name="led_percent_value">%1$d%%</string>
+    <string name="led_error_missing">LED node is not available</string>
+    <string name="led_error_write">Could not write LED setting. Check node permissions.</string>
+    <string name="led_error_read">Could not read LED channel order.</string>
 
     <!-- Joystick calibration -->
     <string name="joystick_category_title">Joystick</string>

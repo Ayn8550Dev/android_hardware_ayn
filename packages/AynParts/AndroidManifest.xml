@@ -63,5 +63,11 @@
             android:label="@string/calibration_title"
             android:exported="false"
             android:screenOrientation="sensorLandscape" />
+
+        <!-- LedSettingsActivity -->
+        <activity
+            android:name=".led.LedSettingsActivity"
+            android:label="@string/led_settings_title"
+            android:exported="false" />
     </application>
 </manifest>

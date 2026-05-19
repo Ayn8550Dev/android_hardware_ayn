@@ -51,6 +51,21 @@
             app:useSimpleSummaryProvider="true" />
     </PreferenceCategory>
 
+    <!-- Gamepad lighting category -->
+    <PreferenceCategory
+        android:key="lighting_category"
+        android:title="@string/lighting_category_title">
+
+        <!-- LED lights preference -->
+        <Preference
+            android:key="led_lights"
+            android:title="@string/led_lights_title"
+            android:summary="@string/led_lights_summary" >
+            <intent android:targetPackage="org.lineageos.settings.ayn"
+                    android:targetClass="org.lineageos.settings.ayn.led.LedSettingsActivity" />
+        </Preference>
+    </PreferenceCategory>
+
     <!-- Gamepad joystick category -->
     <PreferenceCategory
         android:key="joystick_category"
