@@ -6,8 +6,8 @@
 # Moorechip emulated Nintendo Switch Pro controller
 
 key 278   BACK
-key 304   BUTTON_A
-key 305   BUTTON_B
+key 304   BUTTON_B
+key 305   BUTTON_A
 key 307   BUTTON_X
 key 308   BUTTON_Y
 key 310   BUTTON_L1
