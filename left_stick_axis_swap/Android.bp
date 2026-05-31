@@ -1,0 +1,24 @@
+//
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+cc_binary {
+    name: "left_stick_axis_swap",
+
+    init_rc: ["left_stick_axis_swap.rc"],
+
+    shared_libs: [
+        "libbase",
+        "libcutils",
+    ],
+
+    srcs: ["main.cpp"],
+
+    cflags: [
+        "-Wall",
+        "-Werror",
+    ],
+
+    soc_specific: true,
+}

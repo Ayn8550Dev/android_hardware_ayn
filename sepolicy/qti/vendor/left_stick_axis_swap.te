@@ -1,0 +1,8 @@
+type left_stick_axis_swap, domain;
+type left_stick_axis_swap_exec, exec_type, vendor_file_type, file_type;
+
+init_daemon_domain(left_stick_axis_swap)
+
+r_dir_file(left_stick_axis_swap, mnt_vendor_file)
+
+rw_dir_file(left_stick_axis_swap, vendor_sysfs_joystick)
