@@ -1,1 +1,10 @@
+# Fingerprint
+type focal_fingerprint_device, dev_type;
+
+# Joystick
 type vendor_sysfs_joystick, fs_type, sysfs_type, vendor_sysfs_joystick_type;
+
+# Partitions
+type vendor_nvdata_block_device, dev_type;
+type vendor_reserved_block_device, dev_type;
+type vendor_vm-persist_block_device, dev_type;

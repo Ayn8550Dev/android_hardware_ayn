@@ -1,0 +1,18 @@
+add_service(hal_fingerprint_default, focal_fingerprint_service)
+
+binder_call(hal_fingerprint_default, hal_fingerprint_default)
+vndbinder_use(hal_fingerprint_default)
+
+allow hal_fingerprint_default {
+    focal_fingerprint_device
+    tee_device
+}:chr_file rw_file_perms;
+
+allow hal_fingerprint_default fingerprint_vendor_data_file:dir search;
+
+# uevent/netlink
+allow hal_fingerprint_default self:netlink_kobject_uevent_socket create_socket_perms_no_ioctl;
+allow hal_fingerprint_default self:netlink_socket create_socket_perms_no_ioctl;
+
+# spawn the focaltech TA helper in its own domain
+domain_auto_trans(hal_fingerprint_default, hal_fingerprint_focaltech_exec, hal_fingerprint_focaltech)
