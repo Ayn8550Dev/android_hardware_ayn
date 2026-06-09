@@ -1,0 +1,2 @@
+dontaudit qti_display_boot debug_prop:file *;
+dontaudit qti_display_boot debug_prop:property_service set;

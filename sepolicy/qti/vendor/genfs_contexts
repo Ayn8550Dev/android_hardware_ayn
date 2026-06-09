@@ -1,0 +1,2 @@
+# Fingerprint
+genfscon sysfs /devices/platform/soc/soc:focaltech_fp/wakeup u:object_r:sysfs_wakeup:s0
