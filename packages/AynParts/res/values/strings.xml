@@ -21,7 +21,6 @@
     <string name="layout_nintendo">Nintendo</string>
 
     <!-- Gamepad trigger mode entries -->
-    <string name="trigger_mode_both">Both</string>
     <string name="trigger_mode_analog">Analog</string>
     <string name="trigger_mode_digital">Digital</string>
 

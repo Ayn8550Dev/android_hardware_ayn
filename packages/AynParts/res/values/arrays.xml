@@ -18,14 +18,12 @@
 
     <!-- Gamepad trigger mode entries -->
     <string-array name="gamepad_trigger_mode_entries">
-        <item>@string/trigger_mode_both</item>
         <item>@string/trigger_mode_analog</item>
         <item>@string/trigger_mode_digital</item>
     </string-array>
 
     <!-- Gamepad trigger mode values -->
     <string-array name="gamepad_trigger_mode_values" translatable="false">
-        <item>both</item>
         <item>analog</item>
         <item>digital</item>
     </string-array>
