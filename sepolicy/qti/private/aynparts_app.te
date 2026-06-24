@@ -1,4 +1,4 @@
-type aynparts_app, domain;
+type aynparts_app, domain, coredomain;
 typeattribute aynparts_app mlstrustedsubject;
 
 app_domain(aynparts_app)
