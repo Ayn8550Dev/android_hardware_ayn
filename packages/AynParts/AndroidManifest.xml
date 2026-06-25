@@ -76,5 +76,11 @@
             android:label="@string/calibration_title"
             android:exported="false"
             android:screenOrientation="sensorLandscape" />
+
+        <!-- RGBLightingSettingsActivity -->
+        <activity
+            android:name=".lights.RGBLightingSettingsActivity"
+            android:label="@string/gamepad_lights_rgb_lighting_title"
+            android:exported="false" />
     </application>
 </manifest>

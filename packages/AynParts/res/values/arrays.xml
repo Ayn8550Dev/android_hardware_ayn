@@ -135,4 +135,75 @@
         <item>c0000</item>
         <item>f0000</item>
     </string-array>
+
+    <!-- RGB mode entries -->
+    <string-array name="rgb_mode_entries">
+        <item>@string/lights_rgb_mode_global</item>
+        <item>@string/lights_rgb_mode_per_side</item>
+        <item>@string/lights_rgb_mode_per_led</item>
+    </string-array>
+
+    <!-- RGB mode values -->
+    <string-array name="rgb_mode_values" translatable="false">
+        <item>global</item>
+        <item>per_side</item>
+        <item>per_led</item>
+    </string-array>
+
+    <!-- RGB preference keys -->
+    <string-array name="rgb_preference_keys" translatable="false">
+        <item>global_lighting</item>
+        <item>left_side</item>
+        <item>right_side</item>
+        <item>left_strip</item>
+        <item>right_strip</item>
+        <item>left_stick</item>
+        <item>right_stick</item>
+        <item>left_led_0</item>
+        <item>left_led_1</item>
+        <item>left_led_2</item>
+        <item>left_led_3</item>
+        <item>right_led_0</item>
+        <item>right_led_1</item>
+        <item>right_led_2</item>
+        <item>right_led_3</item>
+    </string-array>
+
+    <!-- RGB preference nodes -->
+    <string-array name="rgb_preference_nodes" translatable="false">
+        <item>left:stick right:stick left:strip right:strip left:stick:0 left:stick:1 left:stick:2 left:stick:3 right:stick:0 right:stick:1 right:stick:2 right:stick:3</item>
+        <item>left:stick left:strip left:stick:0 left:stick:1 left:stick:2 left:stick:3</item>
+        <item>right:stick right:strip right:stick:0 right:stick:1 right:stick:2 right:stick:3</item>
+        <item>left:strip</item>
+        <item>right:strip</item>
+        <item>left:stick</item>
+        <item>right:stick</item>
+        <item>left:stick:0</item>
+        <item>left:stick:1</item>
+        <item>left:stick:2</item>
+        <item>left:stick:3</item>
+        <item>right:stick:0</item>
+        <item>right:stick:1</item>
+        <item>right:stick:2</item>
+        <item>right:stick:3</item>
+    </string-array>
+
+    <!-- RGB preference defaults -->
+    <string-array name="rgb_preference_defaults" translatable="false">
+        <item>0:165:180:85</item>
+        <item>255:0:0:85</item>
+        <item>0:0:255:85</item>
+        <item>255:0:0:85</item>
+        <item>0:0:255:85</item>
+        <item>255:0:0:85</item>
+        <item>0:0:255:85</item>
+        <item>255:0:0:85</item>
+        <item>255:165:0:85</item>
+        <item>0:255:0:85</item>
+        <item>0:0:255:85</item>
+        <item>255:0:0:85</item>
+        <item>255:165:0:85</item>
+        <item>0:255:0:85</item>
+        <item>0:0:255:85</item>
+    </string-array>
 </resources>

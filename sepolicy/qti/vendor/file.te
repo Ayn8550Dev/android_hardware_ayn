@@ -5,7 +5,7 @@ type focal_fingerprint_device, dev_type;
 type vendor_sysfs_joystick, fs_type, sysfs_type, vendor_sysfs_joystick_type;
 
 # LEDs
-type vendor_sysfs_ayn_leds, fs_type, sysfs_type;
+type vendor_sysfs_ayn_leds, fs_type, sysfs_type, vendor_sysfs_ayn_leds_type;
 
 # Partitions
 type vendor_nvdata_block_device, dev_type;

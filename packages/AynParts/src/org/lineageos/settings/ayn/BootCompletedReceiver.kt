@@ -10,6 +10,8 @@ import android.content.Context
 import android.content.Intent
 import androidx.preference.PreferenceManager
 import org.lineageos.settings.ayn.joystick.CalibrationPersistence
+import org.lineageos.settings.ayn.lights.RGBLightingController
+import org.lineageos.settings.ayn.utils.LightUtils
 import org.lineageos.settings.ayn.utils.NodeUtils
 
 class BootCompletedReceiver : BroadcastReceiver() {
@@ -32,6 +34,11 @@ class BootCompletedReceiver : BroadcastReceiver() {
 
         // Restore joystick calibration
         CalibrationPersistence.restoreOnBoot(context)
+
+        // Restore rgb lighting
+        if (LightUtils.supportsRGB) {
+            RGBLightingController.restoreOnBoot(context)
+        }
     }
 
     companion object {

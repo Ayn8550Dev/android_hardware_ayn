@@ -85,4 +85,19 @@
                     android:targetClass="org.lineageos.settings.ayn.joystick.CalibrationActivity" />
         </Preference>
     </PreferenceCategory>
+
+    <!-- Gamepad lights category -->
+    <PreferenceCategory
+        android:key="gamepad_lights_category"
+        android:title="@string/gamepad_lights_category_title">
+
+        <!-- Gamepad RGB lighting preference  -->
+        <Preference
+            android:key="gamepad_rgb_lights"
+            android:title="@string/gamepad_lights_rgb_lighting_title"
+            android:summary="@string/gamepad_lights_rgb_lighting_summary" >
+            <intent android:targetPackage="org.lineageos.settings.ayn"
+                    android:targetClass="org.lineageos.settings.ayn.lights.RGBLightingSettingsActivity" />
+        </Preference>
+    </PreferenceCategory>
 </PreferenceScreen>

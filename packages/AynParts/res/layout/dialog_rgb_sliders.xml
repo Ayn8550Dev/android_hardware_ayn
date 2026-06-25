@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:theme="@style/Theme.Material3.DynamicColors.DayNight">
+
+    <!-- Red Slider -->
+    <com.google.android.material.slider.Slider
+        android:id="@+id/dialog_slider_red"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:valueFrom="0"
+        android:valueTo="255"
+        android:stepSize="5"
+        app:tickVisible="false"
+        app:thumbColor="#FF3B30"
+        app:trackColorActive="#FF3B30"
+        app:trackHeight="24dp"
+        app:thumbHeight="36dp"
+        app:labelBehavior="floating"
+        style="@style/SettingslibSliderStyle.Expressive" />
+
+    <!-- Green Slider -->
+    <com.google.android.material.slider.Slider
+        android:id="@+id/dialog_slider_green"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:valueFrom="0"
+        android:valueTo="255"
+        android:stepSize="5"
+        app:tickVisible="false"
+        app:thumbColor="#34C759"
+        app:trackColorActive="#34C759"
+        app:trackHeight="24dp"
+        app:thumbHeight="36dp"
+        app:labelBehavior="floating"
+        style="@style/SettingslibSliderStyle.Expressive" />
+
+    <!-- Blue Slider -->
+    <com.google.android.material.slider.Slider
+        android:id="@+id/dialog_slider_blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:valueFrom="0"
+        android:valueTo="255"
+        android:stepSize="5"
+        app:tickVisible="false"
+        app:thumbColor="#007AFF"
+        app:trackColorActive="#007AFF"
+        app:trackHeight="24dp"
+        app:thumbHeight="36dp"
+        app:labelBehavior="floating"
+        style="@style/SettingslibSliderStyle.Expressive" />
+
+    <!-- Brightness Slider -->
+    <com.google.android.material.slider.Slider
+        android:id="@+id/dialog_slider_brightness"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:valueFrom="0"
+        android:valueTo="255"
+        android:stepSize="17"
+        app:tickVisible="false"
+        app:thumbColor="#FFFFFF"
+        app:trackColorActive="#FFFFFF"
+        app:trackHeight="24dp"
+        app:thumbHeight="36dp"
+        app:labelBehavior="floating"
+        style="@style/SettingslibSliderStyle.Expressive" />
+</LinearLayout>

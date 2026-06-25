@@ -23,6 +23,11 @@
     <string name="gamepad_joystick_calibration_title">Joysticks</string>
     <string name="gamepad_joystick_calibration_summary">Calibrate analog sticks</string>
 
+    <!-- Gamepad lights category -->
+    <string name="gamepad_lights_category_title">Lights</string>
+    <string name="gamepad_lights_rgb_lighting_title">RGB lighting</string>
+    <string name="gamepad_lights_rgb_lighting_summary">Customize the RGB lighting</string>
+
     <!-- Gamepad layout entries -->
     <string name="layout_xbox" translatable="false">Xbox</string>
     <string name="layout_nintendo" translatable="false">Nintendo</string>
@@ -101,4 +106,16 @@
     <string name="calibration_test_desc">Compare before and after. The calibrated sticks should center cleanly and reach all edges.</string>
     <string name="calibration_test_before">Before (raw)</string>
     <string name="calibration_test_after">After (calibrated)</string>
+
+    <!-- Lights -->
+    <string name="lights_rgb_lighting_enable_summary">Use RGB lighting</string>
+    <string name="lights_rgb_mode_category_title">Mode</string>
+    <string name="lights_rgb_mode_global">Global</string>
+    <string name="lights_rgb_mode_per_side">Per-side</string>
+    <string name="lights_rgb_mode_per_led">Per-LED</string>
+    <string name="lights_rgb_left_category_title">Left</string>
+    <string name="lights_rgb_right_category_title">Right</string>
+    <string name="lights_rgb_strip_title">Strip</string>
+    <string name="lights_rgb_stick_title">Stick</string>
+    <string name="lights_rgb_stick_led_title">Stick LED %d</string>
 </resources>

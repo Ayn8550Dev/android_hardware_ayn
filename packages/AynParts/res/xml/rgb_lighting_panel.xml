@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:title="@string/gamepad_lights_rgb_lighting_title">
+
+    <!-- RGB lighting enable preference -->
+    <com.android.settingslib.widget.MainSwitchPreference
+        android:key="rgb_lighting_enable"
+        android:defaultValue="false"
+        android:title="@string/lights_rgb_lighting_enable_summary" />
+
+    <!-- Mode category -->
+    <com.android.settingslib.widget.UntitledPreferenceCategory
+        android:key="mode_category"
+        android:dependency="rgb_lighting_enable">
+
+        <!-- RGB mode preference -->
+        <ListPreference
+            android:key="rgb_mode"
+            android:title="@string/lights_rgb_mode_category_title"
+            android:entries="@array/rgb_mode_entries"
+            android:entryValues="@array/rgb_mode_values"
+            android:defaultValue="global"
+            app:useSimpleSummaryProvider="true" />
+    </com.android.settingslib.widget.UntitledPreferenceCategory>
+
+    <!-- Left category -->
+    <PreferenceCategory
+        android:key="left_category"
+        android:title="@string/lights_rgb_left_category_title"
+        android:dependency="rgb_lighting_enable" />
+
+    <!-- Right category -->
+    <PreferenceCategory
+        android:key="right_category"
+        android:title="@string/lights_rgb_right_category_title"
+        android:dependency="rgb_lighting_enable" />
+</PreferenceScreen>
