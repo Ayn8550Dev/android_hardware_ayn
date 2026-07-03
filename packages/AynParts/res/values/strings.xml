@@ -5,7 +5,7 @@
 -->
 <resources>
     <!-- AynParts main -->
-    <string name="aynparts_app_name">AynParts</string>
+    <string name="aynparts_app_name" translatable="false">AynParts</string>
     <string name="ayn_panel_title">Gamepad</string>
     <string name="ayn_panel_summary">Buttons, layout, joystick calibration</string>
 
@@ -13,12 +13,12 @@
     <string name="gamepad_buttons_category_title">Buttons</string>
     <string name="gamepad_layout_title">Layout</string>
     <string name="gamepad_trigger_mode_title">Trigger mode</string>
-    <string name="gamepad_mappable_0_title">M1</string>
-    <string name="gamepad_mappable_1_title">M2</string>
+    <string name="gamepad_mappable_0_title" translatable="false">M1</string>
+    <string name="gamepad_mappable_1_title" translatable="false">M2</string>
 
     <!-- Gamepad layout entries -->
-    <string name="layout_xbox">Xbox</string>
-    <string name="layout_nintendo">Nintendo</string>
+    <string name="layout_xbox" translatable="false">Xbox</string>
+    <string name="layout_nintendo" translatable="false">Nintendo</string>
 
     <!-- Gamepad trigger mode entries -->
     <string name="trigger_mode_both">Both</string>
@@ -31,16 +31,16 @@
     <string name="mappable_select">SELECT</string>
     <string name="mappable_start">START</string>
     <string name="mappable_back">BACK</string>
-    <string name="mappable_a">A</string>
-    <string name="mappable_b">B</string>
-    <string name="mappable_x">X</string>
-    <string name="mappable_y">Y</string>
-    <string name="mappable_l1">L1</string>
-    <string name="mappable_l2">L2</string>
-    <string name="mappable_l3">L3</string>
-    <string name="mappable_r1">R1</string>
-    <string name="mappable_r2">R2</string>
-    <string name="mappable_r3">R3</string>
+    <string name="mappable_a" translatable="false">A</string>
+    <string name="mappable_b" translatable="false">B</string>
+    <string name="mappable_x" translatable="false">X</string>
+    <string name="mappable_y" translatable="false">Y</string>
+    <string name="mappable_l1" translatable="false">L1</string>
+    <string name="mappable_l2" translatable="false">L2</string>
+    <string name="mappable_l3" translatable="false">L3</string>
+    <string name="mappable_r1" translatable="false">R1</string>
+    <string name="mappable_r2" translatable="false">R2</string>
+    <string name="mappable_r3" translatable="false">R3</string>
     <string name="mappable_down">DOWN</string>
     <string name="mappable_up">UP</string>
     <string name="mappable_left">LEFT</string>
