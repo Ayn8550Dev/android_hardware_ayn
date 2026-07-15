@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="ayn_panel_title">Comandament de joc</string>
+    <string name="ayn_panel_summary">Botons, disposició, calibratge de la palanca de control</string>
+    <string name="gamepad_buttons_category_title">Botons</string>
+    <string name="gamepad_layout_title">Disposició</string>
+    <string name="gamepad_trigger_mode_title">Mode d\'activació</string>
+    <string name="trigger_mode_both">Ambdós</string>
+    <string name="trigger_mode_analog">Analògic</string>
+    <string name="trigger_mode_digital">Digital</string>
+    <string name="mappable_none">Cap</string>
+    <string name="mappable_home">INICI</string>
+    <string name="mappable_select">SELECCIONA</string>
+    <string name="mappable_start">INICIA</string>
+    <string name="mappable_back">ENRRERE</string>
+    <string name="mappable_down">AVALL</string>
+    <string name="mappable_up">AMUNT</string>
+    <string name="mappable_left">ESQUERRA</string>
+    <string name="mappable_right">DRETA</string>
+    <string name="joystick_category_title">Palanca de control</string>
+    <string name="joystick_calibration_title">Calibració de palanca de control</string>
+    <string name="joystick_calibration_summary">Calibra les palanques de control analògiques</string>
+    <string name="calibration_title">Calibració de la palanca de control</string>
+    <string name="calibration_intro_description">Aquest assistent calibrarà les palanques de control analògiques:\n\n1. Centre: deixeu les dues palanques de control relaxades\n2–3. Abast: gireu cada palanca de control en cercles complets\n4–5. Zona morta: estireu i deixeu anar cada palanca de control diverses vegades\n\nCada pas avança un cop s\'han recollit prou dades.</string>
+    <string name="calibration_start">Inicia</string>
+    <string name="calibration_cancel">Cancel·la</string>
+    <string name="calibration_phase_center_title">Pas 1: centre</string>
+    <string name="calibration_phase_center_desc">Deixeu les dues palanques de control centrades i relaxades. El següent apareixerà quan les lectures siguin estables.</string>
+    <string name="calibration_phase_range_left_title">Pas 2: abast de la palanca de control esquerra</string>
+    <string name="calibration_phase_range_left_desc">Gireu lentament la palanca de control esquerre en cercles complets, arribant a tots els extrems. El següent pas apareixerà quan es detecti prou abast.</string>
+    <string name="calibration_phase_range_right_title">Pas 3: abast de la palanca de control dreta</string>
+    <string name="calibration_phase_range_right_desc">Gireu lentament la palanca de control dreta en cercles complets, arribant a tots els extrems. El següent pas apareixerà un cop es detecti prou abast.</string>
+    <string name="calibration_phase_deadzone_left_title">Pas 4: zona morta de la palanca de control esquerra</string>
+    <string name="calibration_phase_deadzone_left_desc">Estira la palanca de control esquerra cap a la vora i deixeu-lo anar. Repetiu almenys 3 vegades des de diferents direccions. El següent pas apareixerà un cop s\'hagin recollit prou dades d\'assentament.</string>
+    <string name="calibration_phase_deadzone_right_title">Pas 5: zona morta de la palanca de control dreta</string>
+    <string name="calibration_phase_deadzone_right_desc">Estira la palanca de control dreta cap a la vora i deixeu-lo anar. Repetiu almenys 3 vegades des de diferents direccions. El següent pas apareixerà un cop s\'hagin recollit prou dades d\'assentament.</string>
+    <string name="calibration_next">Següent</string>
+    <string name="calibration_accept">Accepta</string>
+    <string name="calibration_retry">Reintenta</string>
+    <string name="calibration_test_title">Prova de calibració</string>
+    <string name="calibration_test_desc">Compareu l\'abans i el després. Les palanques de control calibrades han de centrar-se correctament i arribar a totes les vores.</string>
+    <string name="calibration_test_before">Abans (sense calibrar)</string>
+    <string name="calibration_test_after">Després (calibrat)</string>
+</resources>

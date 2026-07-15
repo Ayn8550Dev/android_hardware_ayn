@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="ayn_panel_title">Tay cầm chơi game</string>
+    <string name="ayn_panel_summary">Các nút bấm, bố cục, hiệu chuẩn cần điều khiển</string>
+    <string name="gamepad_buttons_category_title">Nút bấm</string>
+    <string name="gamepad_layout_title">Bố cục</string>
+    <string name="gamepad_trigger_mode_title">Chế độ kích hoạt</string>
+    <string name="trigger_mode_both">Cả hai</string>
+    <string name="trigger_mode_analog">Analog</string>
+    <string name="trigger_mode_digital">Kỹ thuật số</string>
+    <string name="mappable_none">Không</string>
+    <string name="mappable_home">TRANG CHỦ</string>
+    <string name="mappable_select">CHỌN</string>
+    <string name="mappable_start">BẮT ĐẦU</string>
+    <string name="mappable_back">QUAY LẠI</string>
+    <string name="mappable_down">DƯỚI</string>
+    <string name="mappable_up">TRÊN</string>
+    <string name="mappable_left">TRÁI</string>
+    <string name="mappable_right">PHẢI</string>
+    <string name="joystick_category_title">Cần điều khiển</string>
+    <string name="joystick_calibration_title">Hiệu chỉnh cần điều khiển</string>
+    <string name="joystick_calibration_summary">Hiệu chỉnh cần điều khiển analog</string>
+    <string name="calibration_title">Hiệu chỉnh cần điều khiển</string>
+    <string name="calibration_intro_description">Trình hướng dẫn này sẽ hiệu chỉnh cần điều khiển analog của bạn:\n\n1. Trung tâm — để cả hai cần thả lỏng\n\n2–3. Phạm vi — xoay mỗi cần một vòng trọn vẹn\n\n4–5. Vùng chết — kéo và thả mỗi cần vài lần\n\nMỗi bước sẽ được chuyển tiếp khi thu thập đủ dữ liệu.</string>
+    <string name="calibration_start">Bắt đầu</string>
+    <string name="calibration_cancel">Huỷ</string>
+    <string name="calibration_phase_center_title">Bước 1: Trung tâm</string>
+    <string name="calibration_phase_center_desc">Giữ cả hai cần điều khiển ở vị trí trung tâm và thả lỏng. Bước tếp theo sẽ xuất hiện khi các chỉ số ổn định.</string>
+    <string name="calibration_phase_range_left_title">Bước 2: Phạm vi cần điều khiển bên trái</string>
+    <string name="calibration_phase_range_left_desc">Từ từ xoay cần điều khiển bên trái theo vòng tròn, đi đến mọi vị trí cực hạn. Bức tiếp theo sẽ xuất hiện khi đã phát hiện đủ phạm vi.</string>
+    <string name="calibration_phase_range_right_title">Bước 3: Phạm vi cần điều khiển bên phải</string>
+    <string name="calibration_phase_range_right_desc">Từ từ xoay cần điều khiển bên phải theo vòng tròn, đi đến mọi vị trí cực hạn. Bức tiếp theo sẽ xuất hiện khi đã phát hiện đủ phạm vi.</string>
+    <string name="calibration_phase_deadzone_left_title">Bước 4: Vùng chết của cần điều khiển bên trái</string>
+    <string name="calibration_phase_deadzone_left_desc">Kéo cần điều khiển bên trái ra mép rồi thả ra. Lặp lại ít nhất 3 lần từ các hướng khác nhau. Bướcc tiếp theo sẽ xuất hiện khi đã thu thập đủ dữ liệu ổn định.</string>
+    <string name="calibration_phase_deadzone_right_title">Bước 5: Vùng chết của cần điều khiển bên phải</string>
+    <string name="calibration_phase_deadzone_right_desc">Kéo cần điều khiển bên phải ra mép rồi thả ra. Lặp lại ít nhất 3 lần từ các hướng khác nhau. Bướcc tiếp theo sẽ xuất hiện khi đã thu thập đủ dữ liệu ổn định.</string>
+    <string name="calibration_next">Tiếp</string>
+    <string name="calibration_accept">Xác nhận</string>
+    <string name="calibration_retry">Thử lại</string>
+    <string name="calibration_test_title">Kiểm tra hiệu chuẩn</string>
+    <string name="calibration_test_desc">So sánh trước và sau. Các cần điều khiển đã được hiệu chỉnh phải nằm chính giữa và chạm đến tất cả các cạnh.</string>
+    <string name="calibration_test_before">Trước (chưa hiệu chỉnh)</string>
+    <string name="calibration_test_after">Sau (đã hiệu chỉnh)</string>
+</resources>

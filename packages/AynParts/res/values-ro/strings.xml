@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="ayn_panel_title">Gamepad</string>
+    <string name="ayn_panel_summary">Calibrare butoane, aspect și joystick</string>
+    <string name="gamepad_buttons_category_title">Butoane</string>
+    <string name="gamepad_layout_title">Aspect</string>
+    <string name="gamepad_trigger_mode_title">Mod declanșare</string>
+    <string name="trigger_mode_both">Ambele</string>
+    <string name="trigger_mode_analog">Analog</string>
+    <string name="trigger_mode_digital">Digital</string>
+    <string name="mappable_none">Niciunul</string>
+    <string name="mappable_home">ACASĂ</string>
+    <string name="mappable_select">SELECTARE</string>
+    <string name="mappable_start">START</string>
+    <string name="mappable_back">ÎNAPOI</string>
+    <string name="mappable_down">JOS</string>
+    <string name="mappable_up">SUS</string>
+    <string name="mappable_left">STÂNGA</string>
+    <string name="mappable_right">DREAPTA</string>
+    <string name="joystick_category_title">Joystick</string>
+    <string name="joystick_calibration_title">Calibrare joystick</string>
+    <string name="joystick_calibration_summary">Calibrare bețe analogice</string>
+    <string name="calibration_title">Calibrare Joystick</string>
+    <string name="calibration_intro_description">Acest asistent va calibra bețele analogice:\n\n1. Centru — lăsați ambele bețe relaxate\n2-3. Gamă — rotiți fiecare băț într-un cerc complet\n4-5. Zonă moartă - trageți și eliberați fiecare băț de mai multe ori\n\nFiecare pas avansează odată ce sunt colectate suficiente date.</string>
+    <string name="calibration_start">Pornire</string>
+    <string name="calibration_cancel">Anulare</string>
+    <string name="calibration_phase_center_title">Pasul 1: Centru</string>
+    <string name="calibration_phase_center_desc">Lăsați ambele bețe centrate și relaxate. Următorul va apărea odată ce citirile sunt stabile.</string>
+    <string name="calibration_phase_range_left_title">Pasul 2: Gamă Băț Stânga</string>
+    <string name="calibration_phase_range_left_desc">Rotiți încet bățul din stânga în cercuri întregi, ajungând la toate extremele. Următorul va apărea odată ce este detectat un interval suficient.</string>
+    <string name="calibration_phase_range_right_title">Pasul 3: Gamă Băț Dreapta</string>
+    <string name="calibration_phase_range_right_desc">Rotiți încet bățul din dreapta în cercuri întregi, ajungând la toate extremele. Următorul va apărea odată ce este detectat un interval suficient.</string>
+    <string name="calibration_phase_deadzone_left_title">Pasul 4: Zonă Moartă Băț Stânga</string>
+    <string name="calibration_phase_deadzone_left_desc">Trageţi bățul din stânga către margine şi eliberaţi-l. Repetaţi de cel puţin 3 ori din direcţii diferite. Următorul va apărea odată ce sunt colectate suficiente date stabile.</string>
+    <string name="calibration_phase_deadzone_right_title">Pasul 5: Zonă Moartă Băț Dreapta</string>
+    <string name="calibration_phase_deadzone_right_desc">Trageţi bățul din dreapta către margine şi eliberaţi-l. Repetaţi de cel puţin 3 ori din direcţii diferite. Următorul va apărea odată ce sunt colectate suficiente date stabile.</string>
+    <string name="calibration_next">Următorul</string>
+    <string name="calibration_accept">Acceptați</string>
+    <string name="calibration_retry">Reîncercați</string>
+    <string name="calibration_test_title">Testare calibrare</string>
+    <string name="calibration_test_desc">Comparați înainte și după. Bețele calibrate ar trebui să se centreze curat și să ajungă la toate marginile.</string>
+    <string name="calibration_test_before">Înainte (brut)</string>
+    <string name="calibration_test_after">După (calibrat)</string>
+</resources>

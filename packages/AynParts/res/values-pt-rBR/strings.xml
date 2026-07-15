@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="ayn_panel_title">Controle</string>
+    <string name="ayn_panel_summary">Botões, layout, calibração do joystick</string>
+    <string name="gamepad_buttons_category_title">Botões</string>
+    <string name="gamepad_layout_title">Layout</string>
+    <string name="gamepad_trigger_mode_title">Modo do gatilho</string>
+    <string name="trigger_mode_both">Ambos</string>
+    <string name="trigger_mode_analog">Analógico</string>
+    <string name="trigger_mode_digital">Digital</string>
+    <string name="mappable_none">Nenhum</string>
+    <string name="mappable_home">HOME</string>
+    <string name="mappable_select">SELECT</string>
+    <string name="mappable_start">START</string>
+    <string name="mappable_back">BACK</string>
+    <string name="mappable_down">BAIXO</string>
+    <string name="mappable_up">CIMA</string>
+    <string name="mappable_left">ESQUERDA</string>
+    <string name="mappable_right">DIREITA</string>
+    <string name="joystick_category_title">Joystick</string>
+    <string name="joystick_calibration_title">Calibração do joystick</string>
+    <string name="joystick_calibration_summary">Calibrar controles analógicos</string>
+    <string name="calibration_title">Calibração do joystick</string>
+    <string name="calibration_intro_description">Este assistente irá calibrar seus joysticks analógicos:\n\n1. Centro — deixe ambos os joysticks relaxados\n2-3. Alcance — gire cada joystick em círculos completos\n4–5. Zona morta — puxe e solte cada joystick várias vezes\n\nCada passo avança assim que dados suficientes são coletados.</string>
+    <string name="calibration_start">Iniciar</string>
+    <string name="calibration_cancel">Cancelar</string>
+    <string name="calibration_phase_center_title">1ª etapa: Centro</string>
+    <string name="calibration_phase_center_desc">Deixe os dois joysticks centralizados e relaxados. Aparecerá um aviso para avançar quando as leituras estiverem estáveis.</string>
+    <string name="calibration_phase_range_left_title">2ª etapa: Alcance do joystick esquerdo</string>
+    <string name="calibration_phase_range_left_desc">Lentamente gire o joystick esquerdo em círculos completos, alcançando todas as extremidades. Aparacerá um aviso para prosseguir assim que alcance suficiente for detectado.</string>
+    <string name="calibration_phase_range_right_title">3ª etapa: Alcance do joystick direito </string>
+    <string name="calibration_phase_range_right_desc">Lentamente gire o joystick direito em círculos completos, alcançando todas as extremidades. Aparacerá um aviso para prosseguir assim que alcance suficiente for detectado.</string>
+    <string name="calibration_phase_deadzone_left_title">4ª etapa: Zona morta do joystick esquerdo</string>
+    <string name="calibration_phase_deadzone_left_desc">Puxe o joystick esquerdo para a borda e solte-o. Repita pelo menos 3 vezes de diferentes direções. Você poderá continuar assim que dados de parada suficientes forem coletados.</string>
+    <string name="calibration_phase_deadzone_right_title">5ª etapa: Zona morta do joystick direito</string>
+    <string name="calibration_phase_deadzone_right_desc">Puxe o joystick direito para a borda e solte-o. Repita pelo menos 3 vezes de diferentes direções. Você poderá continuar assim que dados de parada suficientes forem coletados.</string>
+    <string name="calibration_next">Avançar</string>
+    <string name="calibration_accept">Aceitar</string>
+    <string name="calibration_retry">Repetir</string>
+    <string name="calibration_test_title">Teste de calibração</string>
+    <string name="calibration_test_desc">Compare antes e depois. Os joysticks calibrados devem centralizar exatamente e alcançar todas as bordas.</string>
+    <string name="calibration_test_before">Antes (bruto)</string>
+    <string name="calibration_test_after">Depois (calibrado)</string>
+</resources>

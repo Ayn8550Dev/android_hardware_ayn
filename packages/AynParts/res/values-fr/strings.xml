@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="ayn_panel_title">Manette de jeu</string>
+    <string name="ayn_panel_summary">Boutons, agencement, calibrage du joystick</string>
+    <string name="gamepad_buttons_category_title">Boutons</string>
+    <string name="gamepad_layout_title">Agencement</string>
+    <string name="gamepad_trigger_mode_title">Mode de déclenchement</string>
+    <string name="trigger_mode_both">Les deux</string>
+    <string name="trigger_mode_analog">Analogique</string>
+    <string name="trigger_mode_digital">Numérique</string>
+    <string name="mappable_none">Aucun</string>
+    <string name="mappable_home">ACCUEIL</string>
+    <string name="mappable_select">SELECTIONNER</string>
+    <string name="mappable_start">DÉMARRER</string>
+    <string name="mappable_back">RETOUR</string>
+    <string name="mappable_down">BAS</string>
+    <string name="mappable_up">HAUT</string>
+    <string name="mappable_left">GAUCHE</string>
+    <string name="mappable_right">DROITE</string>
+    <string name="joystick_category_title">Joystick</string>
+    <string name="joystick_calibration_title">Calibrage du joystick</string>
+    <string name="joystick_calibration_summary">Calibrer les manettes analogiques</string>
+    <string name="calibration_title">Calibrage du joystick</string>
+    <string name="calibration_intro_description">Cet assistant va calibrer vos manettes analogiques :\n\n1. Centrage — laissez les deux manettes au repos\n2–3. Amplitude — faites tourner chaque manette en effectuant des cercles complets\n4–5. Zone morte — tirez et relâchez chaque manette plusieurs fois\n\nChaque étape passe à la suivante une fois qu’un nombre suffisant de données a été collecté.</string>
+    <string name="calibration_start">Démarrer</string>
+    <string name="calibration_cancel">Annuler</string>
+    <string name="calibration_phase_center_title">Étape 1 : Centrer</string>
+    <string name="calibration_phase_center_desc">Laissez les deux joysticks bien au centre et détendues. La suite s\'affichera dès que les mesures seront stables.</string>
+    <string name="calibration_phase_range_left_title">Étape 2 : Portée du joystick gauche</string>
+    <string name="calibration_phase_range_left_desc">Faites tourner lentement le joystick gauche en effectuant des cercles complets, en allant jusqu\'aux extrêmes. L\'étape suivante s\'affichera dès qu\'une amplitude suffisante sera détectée.</string>
+    <string name="calibration_phase_range_right_title">Étape 3 : Portée du joystick droit</string>
+    <string name="calibration_phase_range_right_desc">Faites tourner lentement le joystick droit en effectuant des cercles complets, en allant jusqu\'aux extrêmes. L\'étape suivante s\'affichera dès qu\'une amplitude suffisante sera détectée.</string>
+    <string name="calibration_phase_deadzone_left_title">Étape 4 : Zone morte du joystick gauche</string>
+    <string name="calibration_phase_deadzone_left_desc">Tirez le joystick gauche à fond, puis relâchez-le. Répétez l\'opération au moins 3 fois dans différentes directions. L\'étape suivante s\'affichera une fois qu\'un nombre suffisant de données de stabilisation aura été collecté.</string>
+    <string name="calibration_phase_deadzone_right_title">Étape 5 : Zone morte du joystick droit</string>
+    <string name="calibration_phase_deadzone_right_desc">Tirez le joystick droit à fond, puis relâchez-le. Répétez l\'opération au moins 3 fois dans différentes directions. L\'étape suivante s\'affichera une fois qu\'un nombre suffisant de données de stabilisation aura été collecté.</string>
+    <string name="calibration_next">Suivant</string>
+    <string name="calibration_accept">Accepter</string>
+    <string name="calibration_retry">Recommencer</string>
+    <string name="calibration_test_title">Vérifier le calibrage</string>
+    <string name="calibration_test_desc">Comparer avant et après. Les joysticks calibrés doivent être bien centrés et atteindre tous les bords.</string>
+    <string name="calibration_test_before">Avant (non calibré)</string>
+    <string name="calibration_test_after">Après (calibré)</string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="ayn_panel_title">Pad do gier</string>
+    <string name="ayn_panel_summary">Przyciski, układ, kalibracja joysticka</string>
+    <string name="gamepad_buttons_category_title">Przyciski</string>
+    <string name="gamepad_layout_title">Układ</string>
+    <string name="gamepad_trigger_mode_title">Tryb aktywacji</string>
+    <string name="trigger_mode_both">Obydwa</string>
+    <string name="trigger_mode_analog">Analogowy</string>
+    <string name="trigger_mode_digital">Cyfrowy</string>
+    <string name="mappable_none">Brak</string>
+    <string name="mappable_home">STRONA GŁÓWNA</string>
+    <string name="mappable_select">WYBIERZ</string>
+    <string name="mappable_start">ROZPOCZNIJ</string>
+    <string name="mappable_back">WSTECZ</string>
+    <string name="mappable_down">W DÓŁ</string>
+    <string name="mappable_up">W GÓRĘ</string>
+    <string name="mappable_left">W LEWO</string>
+    <string name="mappable_right">W PRAWO</string>
+    <string name="joystick_category_title">Joystick</string>
+    <string name="joystick_calibration_title">Kalibracja joysticka</string>
+    <string name="joystick_calibration_summary">Kalibracja drążków analogowych</string>
+    <string name="calibration_title">Kalibracja joysticka</string>
+    <string name="calibration_intro_description">Ten kreator przeprowadzi kalibrację drążków analogowych:\n\n1. Wycentrowanie — pozostaw oba drążki w pozycji spoczynkowej\n2–3. Zakres ruchu — obróć każdy drążek o pełne koło\n4–5. Strefa martwa — pociągnij i zwolnij każdy drążek kilka razy\n\nKażdy krok zostanie wykonany po zebraniu wystarczającej ilości danych.</string>
+    <string name="calibration_start">Rozpocznij</string>
+    <string name="calibration_cancel">Anuluj</string>
+    <string name="calibration_phase_center_title">Krok 1: Centrowanie</string>
+    <string name="calibration_phase_center_desc">Trzymaj oba drążki w pozycji środkowej, spoczynkowej. Kolejny krok pojawi się, gdy odczyty się ustabilizują.</string>
+    <string name="calibration_phase_range_left_title">Krok 2: Zakres lewego drążka</string>
+    <string name="calibration_phase_range_left_desc">Powoli obracaj lewym drążkiem, wykonując pełne koła i osiągając wszystkie skrajne pozycje. Kolejny krok pojawi się, gdy wykryty zostanie wystarczający zasięg.</string>
+    <string name="calibration_phase_range_right_title">Krok 3: Zakres prawego drążka</string>
+    <string name="calibration_phase_range_right_desc">Powoli obracaj prawym drążkiem, wykonując pełne koła i osiągając wszystkie skrajne pozycje. Kolejny krok pojawi się, gdy wykryty zostanie wystarczający zasięg.</string>
+    <string name="calibration_phase_deadzone_left_title">Krok 4: Strefa martwa lewego drążka</string>
+    <string name="calibration_phase_deadzone_left_desc">Przesuń lewy drążek do końca i zwolnij go. Powtórz tę czynność co najmniej 3 razy, poruszając drążkiem w różnych kierunkach. Kolejny krok pojawi się, gdy zgromadzona zostanie wystarczająca ilość danych.</string>
+    <string name="calibration_phase_deadzone_right_title">Krok 5: Strefa martwa prawego drążka</string>
+    <string name="calibration_phase_deadzone_right_desc">Przesuń prawy drążek do końca i zwolnij go. Powtórz tę czynność co najmniej 3 razy, poruszając drążkiem w różnych kierunkach. Kolejny krok pojawi się, gdy zgromadzona zostanie wystarczająca ilość danych.</string>
+    <string name="calibration_next">Dalej</string>
+    <string name="calibration_accept">Zatwierdź</string>
+    <string name="calibration_retry">Ponów</string>
+    <string name="calibration_test_title">Sprawdź kalibrację</string>
+    <string name="calibration_test_desc">Porównaj stan przed i po. Skalibrowane drążki powinny być równo wycentrowane i dosięgać wszystkich krawędzi.</string>
+    <string name="calibration_test_before">Przed (nieprzetworzone)</string>
+    <string name="calibration_test_after">Po (skalibrowano)</string>
+</resources>

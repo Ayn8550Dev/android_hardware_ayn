@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="ayn_panel_title">Igralni plošček</string>
+    <string name="ayn_panel_summary">Gumbi, razporeditev, umerjanje palic</string>
+    <string name="gamepad_buttons_category_title">Gumbi</string>
+    <string name="gamepad_layout_title">Razporeditev</string>
+    <string name="gamepad_trigger_mode_title">Način sprožilca</string>
+    <string name="trigger_mode_both">Oba</string>
+    <string name="trigger_mode_analog">Analogni</string>
+    <string name="trigger_mode_digital">Digitalni</string>
+    <string name="mappable_none">Brez</string>
+    <string name="mappable_home">DOMOV</string>
+    <string name="mappable_select">IZBERI</string>
+    <string name="mappable_start">ZAČETEK</string>
+    <string name="mappable_back">NAZAJ</string>
+    <string name="mappable_down">DOL</string>
+    <string name="mappable_up">GOR</string>
+    <string name="mappable_left">LEVO</string>
+    <string name="mappable_right">DESNO</string>
+    <string name="joystick_category_title">Palice</string>
+    <string name="joystick_calibration_title">Umerjanje palic</string>
+    <string name="joystick_calibration_summary">Umerite analogne palice</string>
+    <string name="calibration_title">Umerjanje palic</string>
+    <string name="calibration_intro_description">Ta čarovnik bo umeril vaše analogne palice:\n\n1. Sredina — pustite obe palici sproščeni\n2–3. Obseg — zasučite vsako palico v polnem krogu\n4–5. Mrtva točka — potegnite in spustite vsako palico nekajkrat.\n\nVsak korak napreduje, dokler ni zbranih dovolj podatkov.</string>
+    <string name="calibration_start">Začni</string>
+    <string name="calibration_cancel">Prekliči</string>
+    <string name="calibration_phase_center_title">Korak 1: Sredina</string>
+    <string name="calibration_phase_center_desc">Pustite obe palici na sredini in sproščeni. Naprej se bo pojavil, ko bodo branja stabilna.</string>
+    <string name="calibration_phase_range_left_title">Korak 2: Obseg leve palice</string>
+    <string name="calibration_phase_range_left_desc">Počasi sučite levo palico v polnih krogih, dosegajočih roba. Naprej se bo pojavil, ko bo zaznan zadosten obseg.</string>
+    <string name="calibration_phase_range_right_title">Korak 3: Obseg desne palice</string>
+    <string name="calibration_phase_range_right_desc">Počasi sučite desno palico v polnih krogih, dosegajočih roba. Naprej se bo pojavil, ko bo zaznan zadosten obseg.</string>
+    <string name="calibration_phase_deadzone_left_title">Korak 4: Mrtva točka leve palice</string>
+    <string name="calibration_phase_deadzone_left_desc">Potegnite levo palico do roba in jo spustite. Ponovite vsaj tri krat iz različnih smeri. Naprej se bo pojavil, ko bi zbranih dovolj podatkov.</string>
+    <string name="calibration_phase_deadzone_right_title">Korak 4: Mrtva točka desne palice</string>
+    <string name="calibration_phase_deadzone_right_desc">Potegnite desno palico do roba in jo spustite. Ponovite vsaj tri krat iz različnih smeri. Naprej se bo pojavil, ko bi zbranih dovolj podatkov.</string>
+    <string name="calibration_next">Naprej</string>
+    <string name="calibration_accept">Sprejmi</string>
+    <string name="calibration_retry">Poskusi znova</string>
+    <string name="calibration_test_title">Preizkusi umeritev</string>
+    <string name="calibration_test_desc">Primerjajte pred in potem. Umerjene palice bi se morale postaviti povsem na sredino in doseči vse robove.</string>
+    <string name="calibration_test_before">Pred (nedotaknjeno)</string>
+    <string name="calibration_test_after">Potem (umerjeno)</string>
+</resources>

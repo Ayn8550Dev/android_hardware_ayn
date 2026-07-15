@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="ayn_panel_title">Game pad</string>
+    <string name="ayn_panel_summary">Buttons, layout, joystick calibration</string>
+    <string name="gamepad_buttons_category_title">Buttons</string>
+    <string name="gamepad_layout_title">Layout</string>
+    <string name="gamepad_trigger_mode_title">Trigger mode</string>
+    <string name="trigger_mode_both">Both</string>
+    <string name="trigger_mode_analog">Analogue</string>
+    <string name="trigger_mode_digital">Digital</string>
+    <string name="mappable_none">None</string>
+    <string name="mappable_home">HOME</string>
+    <string name="mappable_select">SELECT</string>
+    <string name="mappable_start">START</string>
+    <string name="mappable_back">BACK</string>
+    <string name="mappable_down">DOWN</string>
+    <string name="mappable_up">UP</string>
+    <string name="mappable_left">LEFT</string>
+    <string name="mappable_right">RIGHT</string>
+    <string name="joystick_category_title">Joystick</string>
+    <string name="joystick_calibration_title">Joystick calibration</string>
+    <string name="joystick_calibration_summary">Calibrate analogue sticks</string>
+    <string name="calibration_title">Joystick Calibration</string>
+    <string name="calibration_intro_description">This wizard will calibrate your analogue sticks:\n\n1. Centre — leave both sticks relaxed\n2–3. Range — rotate each stick in full circles\n4–5. Dead zone — pull and release each stick several times\n\nEach step advances once enough data is collected.</string>
+    <string name="calibration_start">Start</string>
+    <string name="calibration_cancel">Cancel</string>
+    <string name="calibration_phase_center_title">Step 1: Centre</string>
+    <string name="calibration_phase_center_desc">Leave both sticks centred and relaxed. Next will appear once readings are stable.</string>
+    <string name="calibration_phase_range_left_title">Step 2: Left Stick Range</string>
+    <string name="calibration_phase_range_left_desc">Slowly rotate the left stick in full circles, reaching all extremes. Next will appear once enough range is detected.</string>
+    <string name="calibration_phase_range_right_title">Step 3: Right Stick Range</string>
+    <string name="calibration_phase_range_right_desc">Slowly rotate the right stick in full circles, reaching all extremes. Next will appear once enough range is detected.</string>
+    <string name="calibration_phase_deadzone_left_title">Step 4: Left Stick Dead zone</string>
+    <string name="calibration_phase_deadzone_left_desc">Pull the left stick to the edge and release it. Repeat at least 3 times from different directions. Next will appear once enough settle data is collected.</string>
+    <string name="calibration_phase_deadzone_right_title">Step 5: Right Stick Dead zone</string>
+    <string name="calibration_phase_deadzone_right_desc"/>
+    <string name="calibration_next">Next</string>
+    <string name="calibration_accept">Accept</string>
+    <string name="calibration_retry">Retry</string>
+    <string name="calibration_test_title">Test Calibration</string>
+    <string name="calibration_test_desc">Compare before and after. The calibrated sticks should centre cleanly and reach all edges.</string>
+    <string name="calibration_test_before">Before (raw)</string>
+    <string name="calibration_test_after">After (calibrated)</string>
+</resources>

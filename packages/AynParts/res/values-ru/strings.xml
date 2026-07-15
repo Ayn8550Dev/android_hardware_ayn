@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="ayn_panel_title">Геймпад</string>
+    <string name="ayn_panel_summary">Кнопки, раскладка, калибровка джойстика</string>
+    <string name="gamepad_buttons_category_title">Кнопки</string>
+    <string name="gamepad_layout_title">Раскладка</string>
+    <string name="gamepad_trigger_mode_title">Режим триггера</string>
+    <string name="trigger_mode_both">Оба</string>
+    <string name="trigger_mode_analog">Аналоговый</string>
+    <string name="trigger_mode_digital">Цифровой</string>
+    <string name="mappable_none">Нет</string>
+    <string name="mappable_home">ГЛАВНАЯ</string>
+    <string name="mappable_select">ВЫБОР</string>
+    <string name="mappable_start">СТАРТ</string>
+    <string name="mappable_back">НАЗАД</string>
+    <string name="mappable_down">ВНИЗ</string>
+    <string name="mappable_up">ВВЕРХ</string>
+    <string name="mappable_left">ВЛЕВО</string>
+    <string name="mappable_right">ВПРАВО</string>
+    <string name="joystick_category_title">Джойстик</string>
+    <string name="joystick_calibration_title">Калибровка джойстика</string>
+    <string name="joystick_calibration_summary">Калибровка аналоговых джойстиков</string>
+    <string name="calibration_title">Калибровка джойстика</string>
+    <string name="calibration_intro_description">Этот мастер выполнит калибровку ваших аналоговых джойстиков:\n\n1. Центровка — отпустите оба джойстика\n2–3. Диапазон — вращайте каждый джойстик по кругу\n4–5. Мертвая зона — несколько раз отклоните и отпустите каждый джойстик\n\nПереход к следующему шагу произойдет после сбора достаточного количества данных.</string>
+    <string name="calibration_start">Начать</string>
+    <string name="calibration_cancel">Отмена</string>
+    <string name="calibration_phase_center_title">Шаг 1: Центровка</string>
+    <string name="calibration_phase_center_desc">Отпустите оба джойстика. Переход к следующему шагу произойдет после стабилизации значений.</string>
+    <string name="calibration_phase_range_left_title">Шаг 2: Диапазон левого джойстика</string>
+    <string name="calibration_phase_range_left_desc">Медленно вращайте левый джойстик по кругу, достигая краёв. Переход к следующему шагу произойдет после сбора данных о диапазоне.</string>
+    <string name="calibration_phase_range_right_title">Шаг 3: Диапазон правого джойстика</string>
+    <string name="calibration_phase_range_right_desc">Медленно вращайте правый джойстик по кругу, достигая краев. Переход к следующему шагу произойдет после сбора данных о диапазоне.</string>
+    <string name="calibration_phase_deadzone_left_title">Шаг 4: Мертвая зона левого джойстика</string>
+    <string name="calibration_phase_deadzone_left_desc">Отклоните до края и отпустите левый джойстик. Повторите минимум 3 раза с разных направлений. Переход к следующему шагу произойдет после сбора нужного объема данных.</string>
+    <string name="calibration_phase_deadzone_right_title">Шаг 5: Мертвая зона правого джойстика</string>
+    <string name="calibration_phase_deadzone_right_desc">Отклоните до края и отпустите правый джойстик. Повторите минимум 3 раза с разных направлений. Переход к следующему шагу произойдет после сбора нужного объема данных.</string>
+    <string name="calibration_next">Далее</string>
+    <string name="calibration_accept">Принять</string>
+    <string name="calibration_retry">Повторить</string>
+    <string name="calibration_test_title">Протестировать калибровку</string>
+    <string name="calibration_test_desc">Сравните результат до и после. Откалиброванные джойстики должны четко возвращаться в центр и доходить до всех краев.</string>
+    <string name="calibration_test_before">До (исходный)</string>
+    <string name="calibration_test_after">После (откалибровано)</string>
+</resources>

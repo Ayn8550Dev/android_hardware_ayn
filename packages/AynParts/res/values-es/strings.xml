@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="ayn_panel_title">Mando</string>
+    <string name="ayn_panel_summary">Botones, disposición, calibración del mando</string>
+    <string name="gamepad_buttons_category_title">Botones</string>
+    <string name="gamepad_layout_title">Disposición</string>
+    <string name="gamepad_trigger_mode_title">Modo de activación</string>
+    <string name="trigger_mode_both">Ambos</string>
+    <string name="trigger_mode_analog">Analógico</string>
+    <string name="trigger_mode_digital">Digital</string>
+    <string name="mappable_none">Ninguno</string>
+    <string name="mappable_home">INICIO</string>
+    <string name="mappable_select">SELECCIONAR</string>
+    <string name="mappable_start">EMPEZAR</string>
+    <string name="mappable_back">ATRÁS</string>
+    <string name="mappable_down">ABAJO</string>
+    <string name="mappable_up">ARRIBA</string>
+    <string name="mappable_left">IZQUIERDA</string>
+    <string name="mappable_right">DERECHA</string>
+    <string name="joystick_category_title">Mando</string>
+    <string name="joystick_calibration_title">Calibración del mando</string>
+    <string name="joystick_calibration_summary">Calibrar los mandos analógicos</string>
+    <string name="calibration_title">Calibración del mando</string>
+    <string name="calibration_intro_description">Este asistente calibrará tus mandos analógicos:\n\n1. Centrado: mantén ambos mandos en posición de reposo\n2–3. Amplitud: gira cada mando completando círculos completos\n4–5. Zona muerta: tira de cada mando y suéltalo varias veces\n\nCada paso avanzará una vez que se hayan recopilado suficientes datos.</string>
+    <string name="calibration_start">Empezar</string>
+    <string name="calibration_cancel">Cancelar</string>
+    <string name="calibration_phase_center_title">Paso 1: Centrado</string>
+    <string name="calibration_phase_center_desc">Deja ambos mandos centrados y en posición de reposo. El siguiente paso aparecerá una vez que las lecturas se hayan estabilizado.</string>
+    <string name="calibration_phase_range_left_title">Paso 2: Alcance del mando izquierdo</string>
+    <string name="calibration_phase_range_left_desc">Gira lentamente el mando izquierdo describiendo círculos completos, llegando hasta los extremos. El siguiente paso aparecerá una vez que se detecte suficiente amplitud.</string>
+    <string name="calibration_phase_range_right_title">Paso 3: Alcance del mando derecho</string>
+    <string name="calibration_phase_range_right_desc">Gira lentamente el mando derecho describiendo círculos completos, llegando hasta los extremos. El siguiente paso aparecerá una vez que se detecte suficiente amplitud.</string>
+    <string name="calibration_phase_deadzone_left_title">Paso 4: Zona muerta del mando izquierdo</string>
+    <string name="calibration_phase_deadzone_left_desc">Mueve la palanca izquierda hasta el límite y suéltala. Repite el movimiento al menos tres veces desde diferentes direcciones. El siguiente paso aparecerá una vez que se hayan recopilado suficientes datos de estabilización.</string>
+    <string name="calibration_phase_deadzone_right_title">Paso 5: Zona muerta del mando derecho</string>
+    <string name="calibration_phase_deadzone_right_desc">Mueve la palanca derecha hasta el límite y suéltala. Repite el movimiento al menos tres veces desde diferentes direcciones. El siguiente paso aparecerá una vez que se hayan recopilado suficientes datos de estabilización.</string>
+    <string name="calibration_next">Siguiente</string>
+    <string name="calibration_accept">Aceptar</string>
+    <string name="calibration_retry">Reintentar</string>
+    <string name="calibration_test_title">Prueba de calibración</string>
+    <string name="calibration_test_desc">Compara el antes y el después. Las barras calibradas deben quedar perfectamente centradas y llegar a todos los bordes.</string>
+    <string name="calibration_test_before">Antes (sin calibrar)</string>
+    <string name="calibration_test_after">Después (calibrado)</string>
+</resources>

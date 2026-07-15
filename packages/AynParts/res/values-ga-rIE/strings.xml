@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="ayn_panel_title">Ceap cluiche</string>
+    <string name="ayn_panel_summary">Cnaipí, leagan amach, calabrú luamhán stiúrtha</string>
+    <string name="gamepad_buttons_category_title">Cnaipí</string>
+    <string name="gamepad_layout_title">Leagan Amach</string>
+    <string name="gamepad_trigger_mode_title">Mód spreagtha</string>
+    <string name="trigger_mode_both">An dá cheann</string>
+    <string name="trigger_mode_analog">Analógach</string>
+    <string name="trigger_mode_digital">Digiteach</string>
+    <string name="mappable_none">Dada</string>
+    <string name="mappable_home">BAILE</string>
+    <string name="mappable_select">ROGHNAIGH</string>
+    <string name="mappable_start">TOSAIGH</string>
+    <string name="mappable_back">AR AIS</string>
+    <string name="mappable_down">SÍOS</string>
+    <string name="mappable_up">SUAS</string>
+    <string name="mappable_left">AR CLÉ</string>
+    <string name="mappable_right">AR DEIS</string>
+    <string name="joystick_category_title">Luamhán stiúrtha</string>
+    <string name="joystick_calibration_title">Calabrú luamhán stiúrtha</string>
+    <string name="joystick_calibration_summary">Calabraigh bataí analógacha</string>
+    <string name="calibration_title">Calabrú Luamhán Stiúrtha</string>
+    <string name="calibration_intro_description">Déanfaidh an draoi seo do mhaide analógacha a chalabrú:\n\n1. Lár — fág an dá mhaide scíthe\n2–3. Raon — rothlaigh gach maide i gciorcail iomlána\n4–5. Crios marbh — tarraing agus scaoil gach maide arís agus arís eile\n\nTéann gach céim ar aghaidh nuair a bheidh dóthain sonraí bailithe.</string>
+    <string name="calibration_start">Tosaigh</string>
+    <string name="calibration_cancel">Cealaigh</string>
+    <string name="calibration_phase_center_title">Céim 1: Lár</string>
+    <string name="calibration_phase_center_desc">Fág an dá mhaide lárnaithe agus scíthe. Feicfear an chéad cheann eile nuair a bheidh na léamha cobhsaí.</string>
+    <string name="calibration_phase_range_left_title">Céim 2: Raon an Mhaide Chlé</string>
+    <string name="calibration_phase_range_left_desc">Rothlaigh an bata clé go mall i gciorcail iomlána, ag baint amach gach foirceann. Feicfear an chéad cheann eile nuair a bhraitear dóthain raoin.</string>
+    <string name="calibration_phase_range_right_title">Céim 3: Raon na Bata Deise</string>
+    <string name="calibration_phase_range_right_desc">Rothlaigh an bata deas go mall i gciorcail iomlána, ag baint amach gach foirceann. Feicfear an chéad cheann eile nuair a bhraitear dóthain raoin.</string>
+    <string name="calibration_phase_deadzone_left_title">Céim 4: Crios Marbh an Mhaide Chlé</string>
+    <string name="calibration_phase_deadzone_left_desc">Tarraing an bata clé go dtí an imeall agus scaoil saor é. Déan arís é seo trí huaire ar a laghad ó threonna difriúla. Feicfear an chéad cheann eile nuair a bheidh dóthain sonraí socraithe bailithe.</string>
+    <string name="calibration_phase_deadzone_right_title">Céim 5: Crios Marbh ar an Bata Deas</string>
+    <string name="calibration_phase_deadzone_right_desc">Tarraing an bata deas go dtí an imeall agus scaoil saor é. Déan arís é seo trí huaire ar a laghad ó threonna difriúla. Feicfear an chéad cheann eile nuair a bheidh dóthain sonraí socraithe bailithe.</string>
+    <string name="calibration_next">Ar Aghaidh</string>
+    <string name="calibration_accept">Glac leis</string>
+    <string name="calibration_retry">Déan iarracht eile</string>
+    <string name="calibration_test_title">Calabrú Tástála</string>
+    <string name="calibration_test_desc">Déan comparáid idir roimh agus tar éis. Ba chóir go mbeadh lár glan ag na bataí calabraithe agus go sroichfidís gach imill.</string>
+    <string name="calibration_test_before">Roimh (amh)</string>
+    <string name="calibration_test_after">Tar éis (calabraithe)</string>
+</resources>

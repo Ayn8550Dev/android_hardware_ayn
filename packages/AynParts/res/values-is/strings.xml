@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="calibration_intro_description">Þessi leiðarvísir mun kvarða hliðrænu stýripinnana þína:\n\n1. Miðja - láttu báða pinna vera lausa\n2-3. Svið - snúðu hvorum pinna hægt í heila hringi\n4–5. Dauð svið - ýttu og slepptu hvorum pinna nokkrum sinnum\n\nHvert skref klárast þegar nægum gögnum hefur verið safnað.</string>
+    <string name="calibration_phase_center_desc">Hafðu báða pinnana lausa á miðjunni. \'Næsta\' mun birtast þegar aflesturinn er orðinn stöðugur.</string>
+    <string name="calibration_phase_range_left_desc">Snúðu vinstri pinnanum hægt í heila hringi, þannig að farið sé með ystu jöðrum. \'Næsta\' mun birtast þegar nægt svið hefur verið skynjað.</string>
+    <string name="calibration_phase_range_right_desc">Snúðu hægri pinnanum hægt í heila hringi, þannig að farið sé með ystu jöðrum. \'Næsta\' mun birtast þegar nægt svið hefur verið skynjað.</string>
+    <string name="calibration_phase_deadzone_left_desc">Ýttu vinstri pinnanum að jaðrinum og slepptu honum svo. Endurtaktu þetta amk. 3 sinnum úr mismunandi áttum. \'Næsta\' mun birtast þegar nægum stöðugögnum hefur verið safnað.</string>
+    <string name="calibration_phase_deadzone_right_desc">Ýttu hægri pinnanum að jaðrinum og slepptu honum svo. Endurtaktu þetta amk. 3 sinnum úr mismunandi áttum. \'Næsta\' mun birtast þegar nægum stöðugögnum hefur verið safnað.</string>
+    <string name="calibration_accept">Taka við</string>
+    <string name="calibration_retry">Reyna aftur</string>
+    <string name="calibration_test_title">Prófa kvörðun</string>
+    <string name="calibration_test_desc">Berðu saman fyrir og eftir. Kvörðuðu pinnarnir ættu að miðjast hreinlega og ná út á alla jaðra.</string>
+    <string name="calibration_test_before">Fyrir (hrátt)</string>
+    <string name="calibration_test_after">Eftir (kvarðað)</string>
+</resources>

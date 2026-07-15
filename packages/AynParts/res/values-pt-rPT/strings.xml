@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="ayn_panel_title">Comando</string>
+    <string name="ayn_panel_summary">Botões, disposição, calibração do joystick</string>
+    <string name="gamepad_buttons_category_title">Botões</string>
+    <string name="gamepad_layout_title">Disposição</string>
+    <string name="gamepad_trigger_mode_title">Modo do gatilho</string>
+    <string name="trigger_mode_both">Ambos</string>
+    <string name="trigger_mode_analog">Analógico</string>
+    <string name="trigger_mode_digital">Digital</string>
+    <string name="mappable_none">Nenhum</string>
+    <string name="mappable_home">HOME</string>
+    <string name="mappable_select">SELECT</string>
+    <string name="mappable_start">START</string>
+    <string name="mappable_back">BACK</string>
+    <string name="mappable_down">BAIXO</string>
+    <string name="mappable_up">CIMA</string>
+    <string name="mappable_left">ESQUERDA</string>
+    <string name="mappable_right">DIREITA</string>
+    <string name="joystick_category_title">Joystick</string>
+    <string name="joystick_calibration_title">Calibração do joystick</string>
+    <string name="joystick_calibration_summary">Calibrar os manípulos analógicos</string>
+    <string name="calibration_title">Calibração do Joystick</string>
+    <string name="calibration_intro_description">Este assistente irá calibrar os seus analógicos:\n\n1. Centro — deixe ambos os manípulos relaxados\n2–3. Alcance — rode cada manípulo em círculos completos\n4–5. Zona morta — puxe e largue cada manípulo várias vezes\n\nCada passo avança quando forem recolhidos dados suficientes.</string>
+    <string name="calibration_start">Iniciar</string>
+    <string name="calibration_cancel">Cancelar</string>
+    <string name="calibration_phase_center_title">Passo 1: Centro</string>
+    <string name="calibration_phase_center_desc">Deixe ambos os manípulos relaxados. O passo seguinte aparecerá quando todas as leituras estiverem estáveis.</string>
+    <string name="calibration_phase_range_left_title">Passo 2: Alcance do Manípulo Esquerdo</string>
+    <string name="calibration_phase_range_left_desc">Rode lentamente o manípulo esquerdo em círculos completos, alcançando todas as extremidades. O passo seguinte aparecerá quando for detetado alcance suficiente.</string>
+    <string name="calibration_phase_range_right_title">Passo 2: Alcance do Manípulo Direito</string>
+    <string name="calibration_phase_range_right_desc">Rode lentamente o manípulo direito em círculos completos, alcançando todas as extremidades. O passo seguinte aparecerá quando for detetado alcance suficiente.</string>
+    <string name="calibration_phase_deadzone_left_title">Passo 4: Zona Morta do Manípulo Esquerdo</string>
+    <string name="calibration_phase_deadzone_left_desc">Puxe o manípulo esquerdo até uma extremidade e largue-o. Repita pelo menos 3 vezes a partir de diferentes direções. O passo seguinte aparecerá quando dados suficientemente estáveis forem recolhidos.</string>
+    <string name="calibration_phase_deadzone_right_title">Passo 5: Zona Morta do Manípulo Direito</string>
+    <string name="calibration_phase_deadzone_right_desc">Puxe o manípulo direito até uma extremidade e largue-o. Repita pelo menos 3 vezes a partir de diferentes direções. O passo seguinte aparecerá quando dados suficientemente estáveis forem recolhidos.</string>
+    <string name="calibration_next">Seguinte</string>
+    <string name="calibration_accept">Aceitar</string>
+    <string name="calibration_retry">Tentar novamente</string>
+    <string name="calibration_test_title">Testar Calibração</string>
+    <string name="calibration_test_desc">Compare o antes e o após. Os manípulos calibrados devem recentrar-se corretamente e alcançar todos os limites.</string>
+    <string name="calibration_test_before">Antes (cru)</string>
+    <string name="calibration_test_after">Depois (calibrado)</string>
+</resources>

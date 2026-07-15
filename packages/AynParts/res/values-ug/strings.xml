@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="ayn_panel_title">ئويۇن تاختىسى</string>
+    <string name="ayn_panel_summary">توپچە، جايلاشتۇرۇش، ئويۇن دەستىسى توغرىلاش</string>
+    <string name="gamepad_buttons_category_title">توپچە</string>
+    <string name="gamepad_layout_title">جايلاشتۇرۇش</string>
+    <string name="gamepad_trigger_mode_title">قوزغىتىش ھالىتى</string>
+    <string name="trigger_mode_both">ئىككىلىسى</string>
+    <string name="trigger_mode_analog">تەقلىد</string>
+    <string name="trigger_mode_digital">رەقەملىك</string>
+    <string name="mappable_none">يوق</string>
+    <string name="mappable_home">باش بەت</string>
+    <string name="mappable_select">تاللا</string>
+    <string name="mappable_start">باشلا</string>
+    <string name="mappable_back">قايت</string>
+    <string name="mappable_down">ئاستى</string>
+    <string name="mappable_up">ئۈستى</string>
+    <string name="mappable_left">سول</string>
+    <string name="mappable_right">ئوڭ</string>
+    <string name="joystick_category_title">ئويۇن دەستىسى</string>
+    <string name="joystick_calibration_title">ئويۇن دەستىسى توغرىلاش</string>
+    <string name="joystick_calibration_summary">تەقلىد ئويۇن دەستسىىنى توغرىلايدۇ</string>
+    <string name="calibration_title">ئويۇن دەستىسى توغرىلاش</string>
+    <string name="calibration_intro_description">بۇ يېتەكچى تەقلىد ئويۇن دەستىسىنى توغرىلايدۇ:\n\n1.مەركەز — ئىككى ئويۇن دەستىسىنى قويۇپ بېرىشنى ساقلاپ قالىدۇ\n2–3.دائىرە — ھەر بىرئويۇن دەستىسىنى 360 گىرادۇس ئايلاندۇرىدۇ\n4–5.ئۆلۈك دائىرە — ھەر بىر ئويۇن دەستىسىنى بىر قانچە قېتىم تارتىپ ۋە قويۇپ بېرىدۇ\n\nيېتەرلىك سانلىق مەلۇمات توپلىغاندىن كېيىن، ھەر بىر باسقۇچ كېيىنكى قەدەمگە ئىلگىرىلەيدۇ.</string>
+    <string name="calibration_start">باشلا</string>
+    <string name="calibration_cancel">ۋاز كەچ</string>
+    <string name="calibration_phase_center_title">1-قەدەم: ئوتتۇرا</string>
+    <string name="calibration_phase_center_desc">ئىككى ئويۇن دەستىسى بوش قويۇۋېتىلسە ئوتتۇرىغا توغرىلىىدۇ. ئوقۇش مۇقىملاشقاندا كېيىنكى قەدەم كۆرۈنىدۇ.</string>
+    <string name="calibration_phase_range_left_title">2-قەدەم: سول ئويۇن دەستىسى دائىرىسى</string>
+    <string name="calibration_phase_range_left_desc">سول ئويۇن دەستىسىنى چەمبەر شەكىلدە ئاستا تولۇق ئايلاندۇرۇپ، ئاخىرقى نۇقتىسىغا يەتكۈزۈلىدۇ. يېتەرلىك ھەرىكەت دائىرىسىنى بايقىغاندا ئاندىن كېيىنكى قەدەم كۆرۈنىدۇ.</string>
+    <string name="calibration_phase_range_right_title">3-قەدەم: ئوڭ ئويۇن دەستىسى دائىرىسى</string>
+    <string name="calibration_phase_range_right_desc">ئوڭ ئويۇن دەستىسىنى چەمبەر شەكىلدە ئاستا تولۇق ئايلاندۇرۇپ، ئاخىرقى نۇقتىسىغا يەتكۈزۈلىدۇ. يېتەرلىك ھەرىكەت دائىرىسىنى بايقىغاندا ئاندىن كېيىنكى قەدەم كۆرۈنىدۇ.</string>
+    <string name="calibration_phase_deadzone_left_title">4-قەدەم: سول ئويۇن دەستىسى ئۆلۈك رايونى</string>
+    <string name="calibration_phase_deadzone_left_desc">سول ئويۇن دەستىسى گىرۋەككە ئىتتىرىلىپ قويۇپ بېرىلىدۇ. ئوخشاش بولمىغان يۆنىلىشتىن كەم دېگەندە 3 قېتىم تەكرارلىنىدۇ. يېتەرلىك مۇقىم سانلىق مەلۇمات يىغىلغاندا ئاندىن كېيىنكى قەدەم كۆرۈنىدۇ.</string>
+    <string name="calibration_phase_deadzone_right_title">5-قەدەم: ئوڭ ئويۇن دەستىسى ئۆلۈك رايونى</string>
+    <string name="calibration_phase_deadzone_right_desc">ئوڭ ئويۇن دەستىسى گىرۋەككە ئىتتىرىلىپ قويۇپ بېرىلىدۇ. ئوخشاش بولمىغان يۆنىلىشتىن كەم دېگەندە 3 قېتىم تەكرارلىنىدۇ. يېتەرلىك مۇقىم سانلىق مەلۇمات يىغىلغاندا ئاندىن كېيىنكى قەدەم كۆرۈنىدۇ.</string>
+    <string name="calibration_next">كېيىنكى</string>
+    <string name="calibration_accept">قوشۇل</string>
+    <string name="calibration_retry">قايتا سىنا</string>
+    <string name="calibration_test_title">توغرىلاشنى سىنا</string>
+    <string name="calibration_test_desc">ئىلگىرى كېيىنكى نەتىجە سېلىشتۇرۇلىدۇ. تۈزىتىلگەندىن كېيىنكى ئويۇن دەستىسى ئوتتۇرىغا دەل توغرىلىنىدۇ ۋە ھەممە گىرۋەككە يېتىپ بارالايدۇ.</string>
+    <string name="calibration_test_before">ئىلگىرى (ئەسلى)</string>
+    <string name="calibration_test_after">كېيىن (توغرىلاندى)</string>
+</resources>

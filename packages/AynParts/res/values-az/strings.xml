@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="ayn_panel_title">Gamepad</string>
+    <string name="ayn_panel_summary">Düymələr, düzüm, joystick kalibrləmə</string>
+    <string name="gamepad_buttons_category_title">Düymələr</string>
+    <string name="gamepad_layout_title">Düzüm</string>
+    <string name="gamepad_trigger_mode_title">Tətik rejimi</string>
+    <string name="trigger_mode_both">Hər ikisi</string>
+    <string name="trigger_mode_analog">Analoq</string>
+    <string name="trigger_mode_digital">Rəqəmsal</string>
+    <string name="mappable_none">Heç biri</string>
+    <string name="mappable_home">HOME</string>
+    <string name="mappable_select">SELECT</string>
+    <string name="mappable_start">START</string>
+    <string name="mappable_back">BACK</string>
+    <string name="mappable_down">AŞAĞI</string>
+    <string name="mappable_up">YUXARI</string>
+    <string name="mappable_left">SOL</string>
+    <string name="mappable_right">SAĞ</string>
+    <string name="joystick_category_title">Joystick</string>
+    <string name="joystick_calibration_title">Joystick kalibrləmə</string>
+    <string name="joystick_calibration_summary">Analoq çubuqları kalibrlə</string>
+    <string name="calibration_title">Joystick Kalibrləmə</string>
+    <string name="calibration_intro_description">Bu sehrbaz, analoq çubuqlarınızı kalibrləyəcək:\n\n1. Mərkəz: — hər ikisini boş saxlayın\n2–3. Aralıq — hər iki çubuğu tam dairə ilə fırladın\n4–5. Ölü zona — hər iki çubuğu bir neçə dəfə dartıb buraxın\n\nYetərli veri toplandıqdan sonra hər addım irəliləyir.</string>
+    <string name="calibration_start">Başlat</string>
+    <string name="calibration_cancel">İmtina</string>
+    <string name="calibration_phase_center_title">1. Addım: Mərkəz</string>
+    <string name="calibration_phase_center_desc">Hər iki çubuğu mərkəzdə və boş saxlayın. Oxumalar stabil olduqdan sonra növbəti addım görünəcək.</string>
+    <string name="calibration_phase_range_left_title">2. Addım: Sol Çubuq Aralığı</string>
+    <string name="calibration_phase_range_left_desc">Sol çubuğu yavaşca tam dairə üzrə fırladın və bütün uc nöqtələrə çatın. Yetərli məsafə aşkarlandıqdan sonra növbəti addım görünəcək.</string>
+    <string name="calibration_phase_range_right_title">3. Addım: Sağ Çubuq Aralığı</string>
+    <string name="calibration_phase_range_right_desc">Sağ çubuğu yavaşca tam dairə üzrə fırladın və bütün uc nöqtələrə çatın. Yetərli məsafə aşkarlandıqdan sonra növbəti addım görünəcək.</string>
+    <string name="calibration_phase_deadzone_left_title">4. Addım: Sol Çubuq Ölü zonası</string>
+    <string name="calibration_phase_deadzone_left_desc">Sol çubuğu kənara doğru çəkin və buraxın. Müxtəlif istiqamətlərdən ən azı 3 dəfə təkrarlayın. Yetərli yerləşmə verisi toplandıqdan sonra növbəti addım görünəcək.</string>
+    <string name="calibration_phase_deadzone_right_title">5. Addım: Sağ Çubuq Ölü zonası</string>
+    <string name="calibration_phase_deadzone_right_desc">Sağ çubuğu kənara doğru çəkin və buraxın. Müxtəlif istiqamətlərdən ən azı 3 dəfə təkrarlayın. Yetərli yerləşmə verisi toplandıqdan sonra növbəti addım görünəcək.</string>
+    <string name="calibration_next">Növbəti</string>
+    <string name="calibration_accept">Qəbul et</string>
+    <string name="calibration_retry">Yenidən sına</string>
+    <string name="calibration_test_title">Kalibrasiyanı test et</string>
+    <string name="calibration_test_desc">Əvvəl və sonrasını müqayisə edin. Kalibrlənmiş çubuqlar düzgün formada mərkəzlənməli və bütün kənarlara çatmalıdır.</string>
+    <string name="calibration_test_before">Əvvəl (xam)</string>
+    <string name="calibration_test_after">Sonra (kalibrlənmiş)</string>
+</resources>

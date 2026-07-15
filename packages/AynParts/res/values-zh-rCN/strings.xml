@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="ayn_panel_title">手柄</string>
+    <string name="ayn_panel_summary">按键，布局，摇杆校准</string>
+    <string name="gamepad_buttons_category_title">按键</string>
+    <string name="gamepad_layout_title">布局</string>
+    <string name="gamepad_trigger_mode_title">触发模式</string>
+    <string name="trigger_mode_both">两者</string>
+    <string name="trigger_mode_analog">模拟</string>
+    <string name="trigger_mode_digital">数字</string>
+    <string name="mappable_none">无</string>
+    <string name="mappable_home">HOME</string>
+    <string name="mappable_select">SELECT</string>
+    <string name="mappable_start">START</string>
+    <string name="mappable_back">BACK</string>
+    <string name="mappable_down">下</string>
+    <string name="mappable_up">上</string>
+    <string name="mappable_left">左</string>
+    <string name="mappable_right">右</string>
+    <string name="joystick_category_title">摇杆</string>
+    <string name="joystick_calibration_title">摇杆校准</string>
+    <string name="joystick_calibration_summary">校准模拟摇杆</string>
+    <string name="calibration_title">摇杆校准</string>
+    <string name="calibration_intro_description">此向导将校准您的模拟摇杆：\n\n1. 中心 — 保持两个摇杆放松\n2–3. 拨动 — 将每个摇杆旋转 360 度\n4–5. 死区 — 拉动并释放每个摇杆数次\n\n收集到足够的数据后，每个步骤都会向下一步推进。</string>
+    <string name="calibration_start">开始</string>
+    <string name="calibration_cancel">取消</string>
+    <string name="calibration_phase_center_title">第 1 步：中心</string>
+    <string name="calibration_phase_center_desc">保持两根摇杆居中且松开。读数稳定后，下一步将显示。</string>
+    <string name="calibration_phase_range_left_title">第 2 步：左摇杆范围</string>
+    <string name="calibration_phase_range_left_desc">缓慢地将左摇杆旋转完整圆圈，直至到达所有极限位置。检测到足够距离后，下一步按钮将会出现。</string>
+    <string name="calibration_phase_range_right_title">第 3 步：右摇杆范围</string>
+    <string name="calibration_phase_range_right_desc">缓慢地将右摇杆旋转完整圆圈，直至到达所有极限位置。检测到足够距离后，下一步按钮将会出现。</string>
+    <string name="calibration_phase_deadzone_left_title">第 4 步：左摇杆死区</string>
+    <string name="calibration_phase_deadzone_left_desc">将左侧摇杆拉到边缘并松开。从不同方向重复至少 3 次。收集到足够的稳定数据后，下一步按钮将会出现。</string>
+    <string name="calibration_phase_deadzone_right_title">第 5 步：右摇杆死区</string>
+    <string name="calibration_phase_deadzone_right_desc">将右侧的杆拉到边缘并松开。从不同方向重复至少 3 次。收集到足够的稳定数据后，下一步按钮将会出现。</string>
+    <string name="calibration_next">下一步</string>
+    <string name="calibration_accept">接受</string>
+    <string name="calibration_retry">重试</string>
+    <string name="calibration_test_title">测试校准</string>
+    <string name="calibration_test_desc">对比前后结果。校准后的摇杆应该能够精准地居中，并触及所有边缘。</string>
+    <string name="calibration_test_before">之前（原始）</string>
+    <string name="calibration_test_after">之后（校准后）</string>
+</resources>

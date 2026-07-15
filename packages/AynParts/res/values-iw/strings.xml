@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="ayn_panel_title">בקר משחק</string>
+    <string name="ayn_panel_summary">לחצנים, פריסה, כיול ג\'ויסטיק</string>
+    <string name="gamepad_buttons_category_title">לחצנים</string>
+    <string name="gamepad_layout_title">פריסה</string>
+    <string name="gamepad_trigger_mode_title">מצב הדק</string>
+    <string name="trigger_mode_both">שניהם</string>
+    <string name="trigger_mode_analog">אנלוגי</string>
+    <string name="trigger_mode_digital">דיגיטלי</string>
+    <string name="mappable_none">ללא</string>
+    <string name="mappable_home">בית</string>
+    <string name="mappable_select">בחירה</string>
+    <string name="mappable_start">התחלה</string>
+    <string name="mappable_back">חזרה</string>
+    <string name="mappable_down">למטה</string>
+    <string name="mappable_up">למעלה</string>
+    <string name="mappable_left">שמאלה</string>
+    <string name="mappable_right">ימינה</string>
+    <string name="joystick_category_title">ג\'ויסטיק</string>
+    <string name="joystick_calibration_title">כיול ג\'ויסטיק</string>
+    <string name="joystick_calibration_summary">כיול מוטות אנלוגיים</string>
+    <string name="calibration_title">כיול ג\'ויסטיק</string>
+    <string name="calibration_intro_description">אשף זה יכייל את המוטות האנלוגיים שלך. \n\n1. מירכוז - יש להשאיר את שני המוטות רפויים.\n2-‏3. טווח - לסובב כל מוט היגוי במעגלים שלמים\n4-‏5. אזור מת - למשוך ולשחרר כל מוט היגוי מספר פעמים\n\nהשלבים מתקדמים ככל שנאספים מספיק נתונים.</string>
+    <string name="calibration_start">התחלה</string>
+    <string name="calibration_cancel">ביטול</string>
+    <string name="calibration_phase_center_title">שלב 1: מירכוז</string>
+    <string name="calibration_phase_center_desc">יש להשאיר את שני המוטות רפויים במרכז. לחצן הבא יופיע כאשר הקריאות יתייצבו.</string>
+    <string name="calibration_phase_range_left_title">שלב 2: טווח התנועה של המוט השמאלי</string>
+    <string name="calibration_phase_range_left_desc">יש לסובב באיטיות את המוט השמאלי במעגלים שלמים, כולל כל הקצוות. כאשר יזוהה מספיק טוח יופיע לחצן הבא.</string>
+    <string name="calibration_phase_range_right_title">שלב 3: טווח התנועה של המוט הימני</string>
+    <string name="calibration_phase_range_right_desc">יש לסובב באיטיות את המוט הימני במעגלים שלמים, כולל כל הקצוות. כאשר יזוהה מספיק טווח יופיע לחצן הבא.</string>
+    <string name="calibration_phase_deadzone_left_title">צעד 4: אזור מת למוט שמאלי</string>
+    <string name="calibration_phase_deadzone_left_desc">יש למשוך את המוט השמאלי עד לקצה ולשחרר. נדרש לחזור על הפעולה לפחות 3 פעמים מכיוונים שונים. לאחר איסוף מספיק נתוני ייצוב, יופיע לחצן הבא.</string>
+    <string name="calibration_phase_deadzone_right_title">צעד 5: אזור מת למוט ימני</string>
+    <string name="calibration_phase_deadzone_right_desc">יש למשוך את המוט הימני עד לקצה ולשחרר. נדרש לחזור על הפעולה לפחות 3 פעמים מכיוונים שונים. לאחר איסוף מספיק נתוני ייצוב, יופיע לחצן הבא.</string>
+    <string name="calibration_next">הבא</string>
+    <string name="calibration_accept">הסכמה</string>
+    <string name="calibration_retry">ניסיון חוזר</string>
+    <string name="calibration_test_title">בדיקת כיול</string>
+    <string name="calibration_test_desc">השוואת לפני ואחרי. המוטות המכוילים אמורים להתמקד בקלות באמצע ולהגיע לכל הקצוות.</string>
+    <string name="calibration_test_before">לפני (גולמי)</string>
+    <string name="calibration_test_after">אחרי (מכויל)</string>
+</resources>
