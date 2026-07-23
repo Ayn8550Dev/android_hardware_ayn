@@ -1,2 +1,5 @@
 # Fingerprint
 genfscon sysfs /devices/platform/soc/soc:focaltech_fp/wakeup u:object_r:sysfs_wakeup:s0
+
+# Moorechip joystick
+genfscon sysfs /devices/virtual/moorechip-joystick/joystick u:object_r:vendor_sysfs_joystick:s0

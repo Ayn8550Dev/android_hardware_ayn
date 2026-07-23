@@ -6,9 +6,6 @@
 # Left stick axis swap
 /vendor/bin/left_stick_axis_swap    u:object_r:left_stick_axis_swap_exec:s0
 
-# Moorechip joystick
-/sys/devices/virtual/moorechip-joystick/joystick(/.*)?    u:object_r:vendor_sysfs_joystick:s0
-
 # Partitions
 /dev/block/platform/soc/1d84000\.ufshc/by-name/nvdata[1-2]     u:object_r:vendor_nvdata_block_device:s0
 /dev/block/platform/soc/1d84000\.ufshc/by-name/reserve[1-2]    u:object_r:vendor_reserved_block_device:s0
