@@ -1,0 +1,15 @@
+#
+# SPDX-FileCopyrightText: The LineageOS Project
+# SPDX-License-Identifier: Apache-2.0
+#
+
+service recovery.rgb /system/bin/recovery_rgb ${sys.usb.state}
+    class main
+    user root
+    group root
+    oneshot
+    disabled
+    seclabel u:r:recovery_rgb:s0
+
+on property:sys.usb.state=*
+    start recovery.rgb

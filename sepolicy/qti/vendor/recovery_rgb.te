@@ -1,0 +1,12 @@
+recovery_only(`
+type recovery_rgb, domain;
+type recovery_rgb_exec, exec_type, system_file_type, file_type;
+
+init_daemon_domain(recovery_rgb)
+
+allow recovery_rgb rootfs:file { rx_file_perms entrypoint };
+allow recovery_rgb rootfs:dir r_dir_perms;
+
+allow recovery_rgb sysfs_leds:dir search;
+rw_dir_file(recovery_rgb, vendor_sysfs_ayn_leds)
+')

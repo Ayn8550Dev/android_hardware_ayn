@@ -1,5 +1,17 @@
 # Fingerprint
 genfscon sysfs /devices/platform/soc/soc:focaltech_fp/wakeup u:object_r:sysfs_wakeup:s0
 
+# LEDs
+genfscon sysfs /devices/platform/soc/8c0000.qcom,qupv3_2_geni_se/890000.i2c/i2c-3/3-003c/leds   u:object_r:vendor_sysfs_ayn_leds:s0
+genfscon sysfs /devices/platform/soc/8c0000.qcom,qupv3_2_geni_se/890000.i2c/i2c-4/4-003c/leds   u:object_r:vendor_sysfs_ayn_leds:s0
+genfscon sysfs /devices/platform/soc/8c0000.qcom,qupv3_2_geni_se/890000.i2c/i2c-4/4-0054/leds   u:object_r:vendor_sysfs_ayn_leds:s0
+genfscon sysfs /devices/platform/soc/8c0000.qcom,qupv3_2_geni_se/890000.i2c/i2c-7/7-003c/leds   u:object_r:vendor_sysfs_ayn_leds:s0
+genfscon sysfs /devices/platform/soc/9c0000.qcom,qupv3_i2c_geni_se/98c000.i2c/i2c-0/0-003c/leds u:object_r:vendor_sysfs_ayn_leds:s0
+genfscon sysfs /devices/platform/soc/9c0000.qcom,qupv3_i2c_geni_se/990000.i2c/i2c-1/1-003c/leds u:object_r:vendor_sysfs_ayn_leds:s0
+genfscon sysfs /devices/platform/soc/ac0000.qcom,qupv3_1_geni_se/a80000.i2c/i2c-1/1-003c/leds   u:object_r:vendor_sysfs_ayn_leds:s0
+genfscon sysfs /devices/platform/soc/ac0000.qcom,qupv3_1_geni_se/a80000.i2c/i2c-2/2-003c/leds   u:object_r:vendor_sysfs_ayn_leds:s0
+genfscon sysfs /devices/platform/soc/ac0000.qcom,qupv3_1_geni_se/a80000.i2c/i2c-2/2-0054/leds   u:object_r:vendor_sysfs_ayn_leds:s0
+genfscon sysfs /devices/platform/soc/ac0000.qcom,qupv3_1_geni_se/a80000.i2c/i2c-6/6-003c/leds   u:object_r:vendor_sysfs_ayn_leds:s0
+
 # Moorechip joystick
 genfscon sysfs /devices/virtual/moorechip-joystick/joystick u:object_r:vendor_sysfs_joystick:s0
