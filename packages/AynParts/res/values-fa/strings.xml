@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="ayn_panel_title">دسته‌بازی</string>
+    <string name="ayn_panel_summary">دکمه‌ها، طرح‌بندی، کالیبراسیون دسته‌بازی</string>
+    <string name="gamepad_buttons_category_title">دکمه‌ها</string>
+    <string name="gamepad_layout_title">چیدمان</string>
+    <string name="gamepad_trigger_mode_title">حالت ماشه</string>
+    <string name="trigger_mode_both">هر دو</string>
+    <string name="trigger_mode_analog">آنالوگ</string>
+    <string name="trigger_mode_digital">دیجیتال</string>
+    <string name="mappable_none">هیچ</string>
+    <string name="mappable_home">خانه</string>
+    <string name="mappable_select">انتخاب</string>
+    <string name="mappable_start">شروع</string>
+    <string name="mappable_back">بازگشت</string>
+    <string name="mappable_down">پایین</string>
+    <string name="mappable_up">بالا</string>
+    <string name="mappable_left">چپ</string>
+    <string name="mappable_right">راست</string>
+    <string name="joystick_category_title">دسته‌بازی</string>
+    <string name="joystick_calibration_title">کالیبراسیون دسته‌بازی</string>
+    <string name="joystick_calibration_summary">کالیبره کردن استیک‌های آنالوگ</string>
+    <string name="calibration_title">کالیبراسیون دسته‌بازی</string>
+    <string name="calibration_intro_description">این جادوگر، استیک‌های آنالوگ شما را کالیبره می‌کند:\n\n۱. مرکز - هر دو دسته را در حالت آزاد قرار دهید\n۲-۳. محدوده - هر دسته را به صورت دایره‌های کامل بچرخانید\n۴-۵. منطقه بسته - هر دسته را چندین بار بکشید و رها کنید\n\nهر مرحله پس از جمع‌آوری داده‌های کافی پیش می‌رود.</string>
+    <string name="calibration_start">شروع</string>
+    <string name="calibration_cancel">لغو</string>
+    <string name="calibration_phase_center_title">مرحله ۱: مرکز</string>
+    <string name="calibration_phase_center_desc">هر دو استیک را در مرکز و در حالت استراحت قرار دهید. عدد بعدی زمانی ظاهر می‌شود که قرائت‌ها پایدار شوند.</string>
+    <string name="calibration_phase_range_left_title">مرحله ۲: محدوده استیک چپ</string>
+    <string name="calibration_phase_range_left_desc">به آرامی استیک سمت چپ را به صورت دایره‌های کامل بچرخانید و به تمام نقاط انتهایی برسید. وقتی برد کافی شناسایی شد، علامت بعدی ظاهر می‌شود.</string>
+    <string name="calibration_phase_range_right_title">مرحله ۳: محدوده استیک راست</string>
+    <string name="calibration_phase_range_right_desc">به آرامی استیک راست را به صورت دایره‌های کامل بچرخانید و به تمام نقاط انتهایی برسید. وقتی محدوده کافی شناسایی شد، علامت بعدی ظاهر می‌شود.</string>
+    <string name="calibration_phase_deadzone_left_title">مرحله ۴: منطقه بن‌بست استیک چپ</string>
+    <string name="calibration_phase_deadzone_left_desc">استیک سمت چپ را به لبه بکشید و رها کنید. حداقل ۳ بار از جهات مختلف تکرار کنید. وقتی داده‌ها به اندازه کافی جمع‌آوری شد، مرحله بعدی ظاهر می‌شود.</string>
+    <string name="calibration_phase_deadzone_right_title">مرحله ۵: منطقه بن‌بست استیک راست</string>
+    <string name="calibration_phase_deadzone_right_desc">استیک راست را به لبه کشیده و رها کنید. حداقل ۳ بار از جهات مختلف تکرار کنید. مرحله بعدی زمانی ظاهر می‌شود که داده‌ها به اندازه کافی جمع‌آوری شده باشد.</string>
+    <string name="calibration_next">بعدی</string>
+    <string name="calibration_accept">پذیرفتن</string>
+    <string name="calibration_retry">سعی مجدد</string>
+    <string name="calibration_test_title">آزمایش کالیبراسیون</string>
+    <string name="calibration_test_desc">قبل و بعد را مقایسه کنید. استیک‍‌های کالیبره شده باید کاملاً در مرکز قرار گرفته و به تمام لبه‌ها برسند.</string>
+    <string name="calibration_test_before">قبل (خام)</string>
+    <string name="calibration_test_after">بعد (کالیبره شده)</string>
+</resources>
