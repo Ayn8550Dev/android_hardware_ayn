@@ -22,7 +22,7 @@ key 318   BUTTON_THUMBR
 key 158   BACK
 key 314   BUTTON_SELECT
 key 315   BUTTON_START
-key 316   BUTTON_MODE
+key 102   HOME
 
 axis 0x00 X
 axis 0x01 Y
