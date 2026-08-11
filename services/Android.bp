@@ -16,6 +16,15 @@ cc_defaults {
 }
 
 cc_binary {
+    name: "charger_rgb",
+    defaults: ["ayn_services_defaults"],
+    init_rc: ["charger_rgb/charger_rgb.rc"],
+    srcs: ["charger_rgb/main.cpp"],
+    required: ["ueventd.ayn.rc",],
+    soc_specific: true,
+}
+
+cc_binary {
     name: "left_stick_axis_swap",
     defaults: ["ayn_services_defaults"],
     init_rc: ["left_stick_axis_swap/left_stick_axis_swap.rc"],

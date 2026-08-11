@@ -1,0 +1,14 @@
+#
+# SPDX-FileCopyrightText: The LineageOS Project
+# SPDX-License-Identifier: Apache-2.0
+#
+
+service vendor.charger_rgb /vendor/bin/charger_rgb
+    class charger
+    user system
+    group system
+    oneshot
+    disabled
+
+on charger
+    start vendor.charger_rgb

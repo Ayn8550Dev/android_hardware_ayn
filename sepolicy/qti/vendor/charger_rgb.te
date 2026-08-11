@@ -1,0 +1,9 @@
+type charger_rgb, domain;
+type charger_rgb_exec, exec_type, vendor_file_type, file_type;
+
+init_daemon_domain(charger_rgb)
+
+r_dir_file(charger_rgb, vendor_sysfs_battery_supply)
+
+allow charger_rgb sysfs_leds:dir search;
+rw_dir_file(charger_rgb, vendor_sysfs_ayn_leds)

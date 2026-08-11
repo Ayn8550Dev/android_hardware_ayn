@@ -1,3 +1,6 @@
+# Charger RGB
+/vendor/bin/charger_rgb    u:object_r:charger_rgb_exec:s0
+
 # Fingerprint
 /dev/focaltech_fp         u:object_r:focal_fingerprint_device:s0
 /dev/focaltech_fpspi      u:object_r:focal_fingerprint_device:s0
