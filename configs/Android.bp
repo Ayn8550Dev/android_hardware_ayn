@@ -1,0 +1,16 @@
+//
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+prebuilt_usr_idc {
+    name: "moorechip_gamepad_idc",
+    srcs: ["idc/*.idc"],
+    soc_specific: true,
+}
+
+prebuilt_usr_keylayout {
+    name: "moorechip_gamepad_kl",
+    srcs: ["keylayout/*.kl"],
+    soc_specific: true,
+}

@@ -1,0 +1,11 @@
+//
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+prebuilt_etc {
+    name: "ueventd.ayn.rc",
+    filename: "ueventd.rc",
+    src: "ueventd.ayn.rc",
+    device_specific: true,
+}
