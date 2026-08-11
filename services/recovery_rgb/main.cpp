@@ -4,8 +4,8 @@
  */
 
 #include <android-base/file.h>
-#include <string>
 #include <unistd.h>
+#include <string>
 #include <vector>
 
 int main(int argc, char* argv[]) {
@@ -18,19 +18,10 @@ int main(int argc, char* argv[]) {
         color = FASTBOOT;
     }
 
-    const std::vector<std::string> sides = {
-        "left",
-        "right"
-    };
+    const std::vector<std::string> sides = {"left", "right"};
 
-    const std::vector<std::string> leds = {
-        "stick",
-        "stick:0",
-        "stick:1",
-        "stick:2",
-        "stick:3",
-        "strip"
-    };
+    const std::vector<std::string> leds = {"stick",   "stick:0", "stick:1",
+                                           "stick:2", "stick:3", "strip"};
 
     for (const std::string& side : sides) {
         for (const std::string& led : leds) {
