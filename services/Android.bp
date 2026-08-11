@@ -1,0 +1,33 @@
+//
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+cc_defaults {
+    name: "ayn_services_defaults",
+    shared_libs: [
+        "libbase",
+        "libcutils",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+    ],
+}
+
+cc_binary {
+    name: "left_stick_axis_swap",
+    defaults: ["ayn_services_defaults"],
+    init_rc: ["left_stick_axis_swap/left_stick_axis_swap.rc"],
+    srcs: ["left_stick_axis_swap/main.cpp"],
+    required: ["ueventd.ayn.rc",],
+    soc_specific: true,
+}
+
+cc_binary {
+    name: "recovery_rgb",
+    defaults: ["ayn_services_defaults"],
+    init_rc: ["recovery_rgb/recovery_rgb.rc"],
+    srcs: ["recovery_rgb/main.cpp"],
+    recovery: true,
+}
