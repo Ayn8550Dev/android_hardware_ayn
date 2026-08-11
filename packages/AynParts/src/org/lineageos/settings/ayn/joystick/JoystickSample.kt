@@ -14,10 +14,7 @@ data class JoystickSample(
     val rightTrigger: Int,
 ) {
     companion object {
-        /**
-         * Parses the raw sysfs node output.
-         * Format: keys:lx:ly:rx:ry:hat2y:hat2x
-         */
+        /** Parses the raw sysfs node output. Format: keys:lx:ly:rx:ry:hat2y:hat2x */
         fun fromRawString(raw: String): JoystickSample? {
             val parts = raw.trim().split(":")
             if (parts.size != 7) return null

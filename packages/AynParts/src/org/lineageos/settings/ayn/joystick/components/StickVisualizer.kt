@@ -15,12 +15,7 @@ import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.unit.dp
 
 @Composable
-fun StickVisualizer(
-    x: Float,
-    y: Float,
-    label: String,
-    modifier: Modifier = Modifier,
-) {
+fun StickVisualizer(x: Float, y: Float, label: String, modifier: Modifier = Modifier) {
     Canvas(modifier = modifier.size(120.dp)) {
         val cx = size.width / 2f
         val cy = size.height / 2f
@@ -55,10 +50,6 @@ fun StickVisualizer(
         val scale = if (rawDist > 1f) 1f / rawDist else 1f
         val dotX = cx + x * scale * maxTravel
         val dotY = cy + y * scale * maxTravel
-        drawCircle(
-            color = Color.Green,
-            radius = dotRadius,
-            center = Offset(dotX, dotY),
-        )
+        drawCircle(color = Color.Green, radius = dotRadius, center = Offset(dotX, dotY))
     }
 }

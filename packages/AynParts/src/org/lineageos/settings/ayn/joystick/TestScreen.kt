@@ -27,11 +27,7 @@ import org.lineageos.settings.ayn.R
 import org.lineageos.settings.ayn.joystick.components.StickVisualizer
 
 @Composable
-fun TestScreen(
-    state: CalibrationUiState,
-    onAccept: () -> Unit,
-    onRetry: () -> Unit,
-) {
+fun TestScreen(state: CalibrationUiState, onAccept: () -> Unit, onRetry: () -> Unit) {
     Box(modifier = Modifier.fillMaxSize().padding(24.dp)) {
         Column(
             modifier = Modifier.fillMaxSize(),
@@ -63,16 +59,8 @@ fun TestScreen(
                 horizontalArrangement = Arrangement.spacedBy(24.dp),
                 verticalAlignment = Alignment.CenterVertically,
             ) {
-                StickVisualizer(
-                    x = state.rawLeftX,
-                    y = state.rawLeftY,
-                    label = "L",
-                )
-                StickVisualizer(
-                    x = state.rawRightX,
-                    y = state.rawRightY,
-                    label = "R",
-                )
+                StickVisualizer(x = state.rawLeftX, y = state.rawLeftY, label = "L")
+                StickVisualizer(x = state.rawRightX, y = state.rawRightY, label = "R")
             }
 
             Spacer(modifier = Modifier.height(16.dp))
@@ -88,16 +76,8 @@ fun TestScreen(
                 horizontalArrangement = Arrangement.spacedBy(24.dp),
                 verticalAlignment = Alignment.CenterVertically,
             ) {
-                StickVisualizer(
-                    x = state.mappedLeftX,
-                    y = state.mappedLeftY,
-                    label = "L",
-                )
-                StickVisualizer(
-                    x = state.mappedRightX,
-                    y = state.mappedRightY,
-                    label = "R",
-                )
+                StickVisualizer(x = state.mappedLeftX, y = state.mappedLeftY, label = "L")
+                StickVisualizer(x = state.mappedRightX, y = state.mappedRightY, label = "R")
             }
         }
 
@@ -105,12 +85,8 @@ fun TestScreen(
             modifier = Modifier.align(Alignment.BottomEnd),
             horizontalArrangement = Arrangement.spacedBy(12.dp),
         ) {
-            OutlinedButton(onClick = onRetry) {
-                Text(stringResource(R.string.calibration_retry))
-            }
-            Button(onClick = onAccept) {
-                Text(stringResource(R.string.calibration_accept))
-            }
+            OutlinedButton(onClick = onRetry) { Text(stringResource(R.string.calibration_retry)) }
+            Button(onClick = onAccept) { Text(stringResource(R.string.calibration_accept)) }
         }
     }
 }

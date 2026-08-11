@@ -7,9 +7,9 @@ package org.lineageos.settings.ayn.joystick
 
 object JoystickMapping {
     /**
-     * Applies calibration to a raw axis value, returning -1.0..1.0.
-     * Anything inside the deadzone snaps to 0; outside it ramps linearly.
-     * Hardware axes run opposite to screen, so the value is negated.
+     * Applies calibration to a raw axis value, returning -1.0..1.0. Anything inside the deadzone
+     * snaps to 0; outside it ramps linearly. Hardware axes run opposite to screen, so the value is
+     * negated.
      */
     fun mapAxis(raw: Int, cal: AxisCalibration): Float {
         val centered = -(raw - cal.center)

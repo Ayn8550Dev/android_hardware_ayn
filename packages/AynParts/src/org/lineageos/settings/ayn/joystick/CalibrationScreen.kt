@@ -14,40 +14,34 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 
 @Composable
-fun CalibrationScreen(
-    viewModel: CalibrationViewModel,
-    onFinish: () -> Unit,
-) {
+fun CalibrationScreen(viewModel: CalibrationViewModel, onFinish: () -> Unit) {
     val state by viewModel.uiState.collectAsState()
 
-    Surface(
-        modifier = Modifier.fillMaxSize(),
-        color = MaterialTheme.colorScheme.background,
-    ) {
+    Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
         when (val phase = state.phase) {
-            CalibrationPhase.Intro -> PhaseIntroScreen(
-                onStart = { viewModel.startCalibration() },
-                onCancel = onFinish,
-            )
+            CalibrationPhase.Intro ->
+                PhaseIntroScreen(onStart = { viewModel.startCalibration() }, onCancel = onFinish)
 
             CalibrationPhase.Center,
             CalibrationPhase.RangeLeft,
             CalibrationPhase.RangeRight,
             CalibrationPhase.DeadzoneLeft,
-            CalibrationPhase.DeadzoneRight -> CalibrationPhaseScreen(
-                phase = phase,
-                state = state,
-                onNext = { viewModel.advancePhase() },
-            )
+            CalibrationPhase.DeadzoneRight ->
+                CalibrationPhaseScreen(
+                    phase = phase,
+                    state = state,
+                    onNext = { viewModel.advancePhase() },
+                )
 
-            CalibrationPhase.Test -> TestScreen(
-                state = state,
-                onAccept = {
-                    viewModel.acceptCalibration()
-                    onFinish()
-                },
-                onRetry = { viewModel.retryCalibration() },
-            )
+            CalibrationPhase.Test ->
+                TestScreen(
+                    state = state,
+                    onAccept = {
+                        viewModel.acceptCalibration()
+                        onFinish()
+                    },
+                    onRetry = { viewModel.retryCalibration() },
+                )
         }
     }
 }

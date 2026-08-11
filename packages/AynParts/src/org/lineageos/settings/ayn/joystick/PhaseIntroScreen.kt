@@ -24,10 +24,7 @@ import androidx.compose.ui.unit.dp
 import org.lineageos.settings.ayn.R
 
 @Composable
-fun PhaseIntroScreen(
-    onStart: () -> Unit,
-    onCancel: () -> Unit,
-) {
+fun PhaseIntroScreen(onStart: () -> Unit, onCancel: () -> Unit) {
     Column(
         modifier = Modifier.fillMaxSize().padding(32.dp),
         verticalArrangement = Arrangement.Center,
@@ -46,12 +43,8 @@ fun PhaseIntroScreen(
             textAlign = TextAlign.Center,
         )
         Spacer(modifier = Modifier.height(32.dp))
-        Button(onClick = onStart) {
-            Text(stringResource(R.string.calibration_start))
-        }
+        Button(onClick = onStart) { Text(stringResource(R.string.calibration_start)) }
         Spacer(modifier = Modifier.height(12.dp))
-        OutlinedButton(onClick = onCancel) {
-            Text(stringResource(R.string.calibration_cancel))
-        }
+        OutlinedButton(onClick = onCancel) { Text(stringResource(R.string.calibration_cancel)) }
     }
 }

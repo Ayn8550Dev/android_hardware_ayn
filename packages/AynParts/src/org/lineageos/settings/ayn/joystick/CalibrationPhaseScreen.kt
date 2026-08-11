@@ -23,33 +23,37 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import org.lineageos.settings.ayn.R
 import org.lineageos.settings.ayn.joystick.components.StickVisualizer
-import org.lineageos.settings.ayn.joystick.components.TriggerBar
 
 @Composable
-fun CalibrationPhaseScreen(
-    phase: CalibrationPhase,
-    state: CalibrationUiState,
-    onNext: () -> Unit,
-) {
+fun CalibrationPhaseScreen(phase: CalibrationPhase, state: CalibrationUiState, onNext: () -> Unit) {
     val sample = state.currentSample
 
-    val title = when (phase) {
-        CalibrationPhase.Center -> stringResource(R.string.calibration_phase_center_title)
-        CalibrationPhase.RangeLeft -> stringResource(R.string.calibration_phase_range_left_title)
-        CalibrationPhase.RangeRight -> stringResource(R.string.calibration_phase_range_right_title)
-        CalibrationPhase.DeadzoneLeft -> stringResource(R.string.calibration_phase_deadzone_left_title)
-        CalibrationPhase.DeadzoneRight -> stringResource(R.string.calibration_phase_deadzone_right_title)
-        else -> ""
-    }
+    val title =
+        when (phase) {
+            CalibrationPhase.Center -> stringResource(R.string.calibration_phase_center_title)
+            CalibrationPhase.RangeLeft ->
+                stringResource(R.string.calibration_phase_range_left_title)
+            CalibrationPhase.RangeRight ->
+                stringResource(R.string.calibration_phase_range_right_title)
+            CalibrationPhase.DeadzoneLeft ->
+                stringResource(R.string.calibration_phase_deadzone_left_title)
+            CalibrationPhase.DeadzoneRight ->
+                stringResource(R.string.calibration_phase_deadzone_right_title)
+            else -> ""
+        }
 
-    val description = when (phase) {
-        CalibrationPhase.Center -> stringResource(R.string.calibration_phase_center_desc)
-        CalibrationPhase.RangeLeft -> stringResource(R.string.calibration_phase_range_left_desc)
-        CalibrationPhase.RangeRight -> stringResource(R.string.calibration_phase_range_right_desc)
-        CalibrationPhase.DeadzoneLeft -> stringResource(R.string.calibration_phase_deadzone_left_desc)
-        CalibrationPhase.DeadzoneRight -> stringResource(R.string.calibration_phase_deadzone_right_desc)
-        else -> ""
-    }
+    val description =
+        when (phase) {
+            CalibrationPhase.Center -> stringResource(R.string.calibration_phase_center_desc)
+            CalibrationPhase.RangeLeft -> stringResource(R.string.calibration_phase_range_left_desc)
+            CalibrationPhase.RangeRight ->
+                stringResource(R.string.calibration_phase_range_right_desc)
+            CalibrationPhase.DeadzoneLeft ->
+                stringResource(R.string.calibration_phase_deadzone_left_desc)
+            CalibrationPhase.DeadzoneRight ->
+                stringResource(R.string.calibration_phase_deadzone_right_desc)
+            else -> ""
+        }
 
     Column(
         modifier = Modifier.fillMaxSize().padding(24.dp),
@@ -72,43 +76,43 @@ fun CalibrationPhaseScreen(
 
         if (sample != null) {
             when (phase) {
-                CalibrationPhase.Center -> Row(
-                    horizontalArrangement = Arrangement.spacedBy(24.dp),
-                    verticalAlignment = Alignment.CenterVertically,
-                ) {
+                CalibrationPhase.Center ->
+                    Row(
+                        horizontalArrangement = Arrangement.spacedBy(24.dp),
+                        verticalAlignment = Alignment.CenterVertically,
+                    ) {
+                        StickVisualizer(
+                            x = JoystickMapping.normalizeAxis(sample.leftX),
+                            y = JoystickMapping.normalizeAxis(sample.leftY),
+                            label = "L",
+                        )
+                        StickVisualizer(
+                            x = JoystickMapping.normalizeAxis(sample.rightX),
+                            y = JoystickMapping.normalizeAxis(sample.rightY),
+                            label = "R",
+                        )
+                    }
+                CalibrationPhase.RangeLeft,
+                CalibrationPhase.DeadzoneLeft ->
                     StickVisualizer(
                         x = JoystickMapping.normalizeAxis(sample.leftX),
                         y = JoystickMapping.normalizeAxis(sample.leftY),
                         label = "L",
                     )
+                CalibrationPhase.RangeRight,
+                CalibrationPhase.DeadzoneRight ->
                     StickVisualizer(
                         x = JoystickMapping.normalizeAxis(sample.rightX),
                         y = JoystickMapping.normalizeAxis(sample.rightY),
                         label = "R",
                     )
-                }
-                CalibrationPhase.RangeLeft,
-                CalibrationPhase.DeadzoneLeft -> StickVisualizer(
-                    x = JoystickMapping.normalizeAxis(sample.leftX),
-                    y = JoystickMapping.normalizeAxis(sample.leftY),
-                    label = "L",
-                )
-                CalibrationPhase.RangeRight,
-                CalibrationPhase.DeadzoneRight -> StickVisualizer(
-                    x = JoystickMapping.normalizeAxis(sample.rightX),
-                    y = JoystickMapping.normalizeAxis(sample.rightY),
-                    label = "R",
-                )
                 else -> {}
             }
         }
 
         Spacer(modifier = Modifier.height(24.dp))
 
-        Button(
-            onClick = onNext,
-            enabled = state.readyToAdvance,
-        ) {
+        Button(onClick = onNext, enabled = state.readyToAdvance) {
             Text(stringResource(R.string.calibration_next))
         }
     }

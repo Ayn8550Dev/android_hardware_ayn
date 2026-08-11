@@ -28,13 +28,9 @@ fun ButtonGrid(
     ) {
         buttons.forEachIndexed { index, (label, onClick) ->
             if (index in outlined) {
-                OutlinedButton(onClick = onClick) {
-                    Text(label)
-                }
+                OutlinedButton(onClick = onClick) { Text(label) }
             } else {
-                Button(onClick = onClick) {
-                    Text(label)
-                }
+                Button(onClick = onClick) { Text(label) }
             }
         }
     }

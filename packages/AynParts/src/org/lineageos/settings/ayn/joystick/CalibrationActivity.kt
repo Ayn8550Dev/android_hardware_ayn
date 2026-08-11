@@ -25,12 +25,7 @@ class CalibrationActivity : ComponentActivity() {
         requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_SENSOR_LANDSCAPE
 
         setContent {
-            DynamicTheme {
-                CalibrationScreen(
-                    viewModel = viewModel,
-                    onFinish = { finish() },
-                )
-            }
+            DynamicTheme { CalibrationScreen(viewModel = viewModel, onFinish = { finish() }) }
         }
     }
 }
@@ -38,10 +33,11 @@ class CalibrationActivity : ComponentActivity() {
 @Composable
 private fun DynamicTheme(content: @Composable () -> Unit) {
     val context = LocalContext.current
-    val colorScheme = if (isSystemInDarkTheme()) {
-        dynamicDarkColorScheme(context)
-    } else {
-        dynamicLightColorScheme(context)
-    }
+    val colorScheme =
+        if (isSystemInDarkTheme()) {
+            dynamicDarkColorScheme(context)
+        } else {
+            dynamicLightColorScheme(context)
+        }
     MaterialTheme(colorScheme = colorScheme, content = content)
 }

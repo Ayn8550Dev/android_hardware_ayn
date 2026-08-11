@@ -14,10 +14,14 @@ class CalibrationEngine {
     private val centerRx = mutableListOf<Int>()
     private val centerRy = mutableListOf<Int>()
 
-    private var minLx = Int.MAX_VALUE; private var maxLx = Int.MIN_VALUE
-    private var minLy = Int.MAX_VALUE; private var maxLy = Int.MIN_VALUE
-    private var minRx = Int.MAX_VALUE; private var maxRx = Int.MIN_VALUE
-    private var minRy = Int.MAX_VALUE; private var maxRy = Int.MIN_VALUE
+    private var minLx = Int.MAX_VALUE
+    private var maxLx = Int.MIN_VALUE
+    private var minLy = Int.MAX_VALUE
+    private var maxLy = Int.MIN_VALUE
+    private var minRx = Int.MAX_VALUE
+    private var maxRx = Int.MIN_VALUE
+    private var minRy = Int.MAX_VALUE
+    private var maxRy = Int.MIN_VALUE
 
     // Only resting samples are kept here, movement is filtered out.
     private val dzRestLx = mutableListOf<Int>()
@@ -30,8 +34,10 @@ class CalibrationEngine {
     private var rightSettleCount = 0
 
     // Rough centers from the initial resting step, used to judge range coverage.
-    private var cLx = 0; private var cLy = 0
-    private var cRx = 0; private var cRy = 0
+    private var cLx = 0
+    private var cLy = 0
+    private var cRx = 0
+    private var cRy = 0
 
     fun addCenterSample(sample: JoystickSample) {
         centerLx.add(sample.leftX)
@@ -57,8 +63,10 @@ class CalibrationEngine {
     }
 
     fun addRangeLeftSample(sample: JoystickSample) {
-        minLx = minOf(minLx, sample.leftX); maxLx = maxOf(maxLx, sample.leftX)
-        minLy = minOf(minLy, sample.leftY); maxLy = maxOf(maxLy, sample.leftY)
+        minLx = minOf(minLx, sample.leftX)
+        maxLx = maxOf(maxLx, sample.leftX)
+        minLy = minOf(minLy, sample.leftY)
+        maxLy = maxOf(maxLy, sample.leftY)
     }
 
     // All four directions from center must be reached, not just a big total span.
@@ -71,8 +79,10 @@ class CalibrationEngine {
     }
 
     fun addRangeRightSample(sample: JoystickSample) {
-        minRx = minOf(minRx, sample.rightX); maxRx = maxOf(maxRx, sample.rightX)
-        minRy = minOf(minRy, sample.rightY); maxRy = maxOf(maxRy, sample.rightY)
+        minRx = minOf(minRx, sample.rightX)
+        maxRx = maxOf(maxRx, sample.rightX)
+        minRy = minOf(minRy, sample.rightY)
+        maxRy = maxOf(maxRy, sample.rightY)
     }
 
     fun isRangeRightReady(): Boolean {
@@ -141,30 +151,34 @@ class CalibrationEngine {
         val trueCenterRy = dzRestRy.average().roundToInt()
 
         return CalibrationData(
-            leftX = AxisCalibration(
-                center = trueCenterLx,
-                min = minLx,
-                max = maxLx,
-                deadzone = computeDeadzone(dzRestLx, trueCenterLx),
-            ),
-            leftY = AxisCalibration(
-                center = trueCenterLy,
-                min = minLy,
-                max = maxLy,
-                deadzone = computeDeadzone(dzRestLy, trueCenterLy),
-            ),
-            rightX = AxisCalibration(
-                center = trueCenterRx,
-                min = minRx,
-                max = maxRx,
-                deadzone = computeDeadzone(dzRestRx, trueCenterRx),
-            ),
-            rightY = AxisCalibration(
-                center = trueCenterRy,
-                min = minRy,
-                max = maxRy,
-                deadzone = computeDeadzone(dzRestRy, trueCenterRy),
-            ),
+            leftX =
+                AxisCalibration(
+                    center = trueCenterLx,
+                    min = minLx,
+                    max = maxLx,
+                    deadzone = computeDeadzone(dzRestLx, trueCenterLx),
+                ),
+            leftY =
+                AxisCalibration(
+                    center = trueCenterLy,
+                    min = minLy,
+                    max = maxLy,
+                    deadzone = computeDeadzone(dzRestLy, trueCenterLy),
+                ),
+            rightX =
+                AxisCalibration(
+                    center = trueCenterRx,
+                    min = minRx,
+                    max = maxRx,
+                    deadzone = computeDeadzone(dzRestRx, trueCenterRx),
+                ),
+            rightY =
+                AxisCalibration(
+                    center = trueCenterRy,
+                    min = minRy,
+                    max = maxRy,
+                    deadzone = computeDeadzone(dzRestRy, trueCenterRy),
+                ),
         )
     }
 

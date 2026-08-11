@@ -54,12 +54,7 @@ class ConfigPanelSearchIndexablesProvider : SearchIndexablesProvider() {
 
         private val INDEXABLE_RES =
             arrayOf<SearchIndexableResource>(
-                SearchIndexableResource(
-                    1,
-                    R.xml.ayn_panel,
-                    AynSettingsActivity::class.java.name,
-                    0,
-                )
+                SearchIndexableResource(1, R.xml.ayn_panel, AynSettingsActivity::class.java.name, 0)
             )
     }
 }

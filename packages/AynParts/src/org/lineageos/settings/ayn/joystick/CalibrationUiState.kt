@@ -7,11 +7,17 @@ package org.lineageos.settings.ayn.joystick
 
 sealed class CalibrationPhase {
     data object Intro : CalibrationPhase()
+
     data object Center : CalibrationPhase()
+
     data object RangeLeft : CalibrationPhase()
+
     data object RangeRight : CalibrationPhase()
+
     data object DeadzoneLeft : CalibrationPhase()
+
     data object DeadzoneRight : CalibrationPhase()
+
     data object Test : CalibrationPhase()
 }
 

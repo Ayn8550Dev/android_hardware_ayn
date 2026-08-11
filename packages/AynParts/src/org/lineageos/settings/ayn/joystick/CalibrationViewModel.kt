@@ -43,9 +43,7 @@ class CalibrationViewModel(application: Application) : AndroidViewModel(applicat
             CalibrationPhase.DeadzoneRight -> {
                 stopJobs()
                 val result = engine.buildResult()
-                _uiState.update {
-                    it.copy(phase = CalibrationPhase.Test, calibrationData = result)
-                }
+                _uiState.update { it.copy(phase = CalibrationPhase.Test, calibrationData = result) }
                 startTestSampling()
             }
             else -> {}
@@ -70,14 +68,15 @@ class CalibrationViewModel(application: Application) : AndroidViewModel(applicat
     private fun startPhase(phase: CalibrationPhase) {
         stopJobs()
 
-        val minDuration = when (phase) {
-            CalibrationPhase.Center -> JoystickConstants.PHASE_CENTER_MIN_DURATION_MS
-            CalibrationPhase.RangeLeft,
-            CalibrationPhase.RangeRight -> JoystickConstants.PHASE_RANGE_MIN_DURATION_MS
-            CalibrationPhase.DeadzoneLeft,
-            CalibrationPhase.DeadzoneRight -> JoystickConstants.PHASE_DEADZONE_MIN_DURATION_MS
-            else -> 0L
-        }
+        val minDuration =
+            when (phase) {
+                CalibrationPhase.Center -> JoystickConstants.PHASE_CENTER_MIN_DURATION_MS
+                CalibrationPhase.RangeLeft,
+                CalibrationPhase.RangeRight -> JoystickConstants.PHASE_RANGE_MIN_DURATION_MS
+                CalibrationPhase.DeadzoneLeft,
+                CalibrationPhase.DeadzoneRight -> JoystickConstants.PHASE_DEADZONE_MIN_DURATION_MS
+                else -> 0L
+            }
 
         _uiState.update { it.copy(phase = phase, readyToAdvance = false) }
 
@@ -88,62 +87,66 @@ class CalibrationViewModel(application: Application) : AndroidViewModel(applicat
     }
 
     private fun startReadyCheck(phase: CalibrationPhase, minDurationMs: Long) {
-        readyCheckJob = viewModelScope.launch {
-            delay(minDurationMs) // let the user read the instructions first
+        readyCheckJob =
+            viewModelScope.launch {
+                delay(minDurationMs) // let the user read the instructions first
 
-            while (true) {
-                val ready = when (phase) {
-                    CalibrationPhase.Center -> engine.isCenterReady()
-                    CalibrationPhase.RangeLeft -> engine.isRangeLeftReady()
-                    CalibrationPhase.RangeRight -> engine.isRangeRightReady()
-                    CalibrationPhase.DeadzoneLeft -> engine.isDeadzoneLeftReady()
-                    CalibrationPhase.DeadzoneRight -> engine.isDeadzoneRightReady()
-                    else -> false
+                while (true) {
+                    val ready =
+                        when (phase) {
+                            CalibrationPhase.Center -> engine.isCenterReady()
+                            CalibrationPhase.RangeLeft -> engine.isRangeLeftReady()
+                            CalibrationPhase.RangeRight -> engine.isRangeRightReady()
+                            CalibrationPhase.DeadzoneLeft -> engine.isDeadzoneLeftReady()
+                            CalibrationPhase.DeadzoneRight -> engine.isDeadzoneRightReady()
+                            else -> false
+                        }
+                    if (ready) {
+                        _uiState.update { it.copy(readyToAdvance = true) }
+                        break
+                    }
+                    delay(200L)
                 }
-                if (ready) {
-                    _uiState.update { it.copy(readyToAdvance = true) }
-                    break
-                }
-                delay(200L)
             }
-        }
     }
 
     private fun startSampling(phase: CalibrationPhase) {
-        samplingJob = viewModelScope.launch {
-            sampler.samples().collect { sample ->
-                _uiState.update { it.copy(currentSample = sample) }
-                when (phase) {
-                    CalibrationPhase.Center -> engine.addCenterSample(sample)
-                    CalibrationPhase.RangeLeft -> engine.addRangeLeftSample(sample)
-                    CalibrationPhase.RangeRight -> engine.addRangeRightSample(sample)
-                    CalibrationPhase.DeadzoneLeft -> engine.addDeadzoneLeftSample(sample)
-                    CalibrationPhase.DeadzoneRight -> engine.addDeadzoneRightSample(sample)
-                    else -> {}
+        samplingJob =
+            viewModelScope.launch {
+                sampler.samples().collect { sample ->
+                    _uiState.update { it.copy(currentSample = sample) }
+                    when (phase) {
+                        CalibrationPhase.Center -> engine.addCenterSample(sample)
+                        CalibrationPhase.RangeLeft -> engine.addRangeLeftSample(sample)
+                        CalibrationPhase.RangeRight -> engine.addRangeRightSample(sample)
+                        CalibrationPhase.DeadzoneLeft -> engine.addDeadzoneLeftSample(sample)
+                        CalibrationPhase.DeadzoneRight -> engine.addDeadzoneRightSample(sample)
+                        else -> {}
+                    }
                 }
             }
-        }
     }
 
     private fun startTestSampling() {
         val data = _uiState.value.calibrationData ?: return
-        samplingJob = viewModelScope.launch {
-            sampler.samples().collect { sample ->
-                _uiState.update {
-                    it.copy(
-                        currentSample = sample,
-                        mappedLeftX = JoystickMapping.mapAxis(sample.leftX, data.leftX),
-                        mappedLeftY = JoystickMapping.mapAxis(sample.leftY, data.leftY),
-                        mappedRightX = JoystickMapping.mapAxis(sample.rightX, data.rightX),
-                        mappedRightY = JoystickMapping.mapAxis(sample.rightY, data.rightY),
-                        rawLeftX = JoystickMapping.normalizeAxis(sample.leftX),
-                        rawLeftY = JoystickMapping.normalizeAxis(sample.leftY),
-                        rawRightX = JoystickMapping.normalizeAxis(sample.rightX),
-                        rawRightY = JoystickMapping.normalizeAxis(sample.rightY),
-                    )
+        samplingJob =
+            viewModelScope.launch {
+                sampler.samples().collect { sample ->
+                    _uiState.update {
+                        it.copy(
+                            currentSample = sample,
+                            mappedLeftX = JoystickMapping.mapAxis(sample.leftX, data.leftX),
+                            mappedLeftY = JoystickMapping.mapAxis(sample.leftY, data.leftY),
+                            mappedRightX = JoystickMapping.mapAxis(sample.rightX, data.rightX),
+                            mappedRightY = JoystickMapping.mapAxis(sample.rightY, data.rightY),
+                            rawLeftX = JoystickMapping.normalizeAxis(sample.leftX),
+                            rawLeftY = JoystickMapping.normalizeAxis(sample.leftY),
+                            rawRightX = JoystickMapping.normalizeAxis(sample.rightX),
+                            rawRightY = JoystickMapping.normalizeAxis(sample.rightY),
+                        )
+                    }
                 }
             }
-        }
     }
 
     private fun stopJobs() {

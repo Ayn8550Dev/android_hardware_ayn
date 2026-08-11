@@ -9,7 +9,6 @@ import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import androidx.preference.PreferenceManager
-
 import org.lineageos.settings.ayn.joystick.CalibrationPersistence
 import org.lineageos.settings.ayn.utils.NodeUtils
 
