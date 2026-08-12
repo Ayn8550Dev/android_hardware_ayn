@@ -5,6 +5,7 @@
 
 # Joystick
 /sys/class/moorechip-joystick/joystick    calibration        0660    system    system
+/sys/class/moorechip-joystick/joystick    ignore_mask        0660    system    system
 /sys/class/moorechip-joystick/joystick    m0_function        0660    system    system
 /sys/class/moorechip-joystick/joystick    m1_function        0660    system    system
 /sys/class/moorechip-joystick/joystick    layout             0660    system    system

@@ -99,4 +99,24 @@
         <item>screenshot</item>
         <item>power</item>
     </string-array>
+
+    <!-- Gamepad ignore mask entries -->
+    <string-array name="gamepad_ignore_mask_entries">
+        <item>@string/ignore_mask_none</item>
+        <item>@string/ignore_mask_all</item>
+        <item>@string/ignore_mask_buttons</item>
+        <item>@string/ignore_mask_triggers</item>
+        <item>@string/ignore_mask_sticks</item>
+        <item>@string/ignore_mask_triggers_sticks</item>
+    </string-array>
+
+    <!-- Gamepad ignore mask values -->
+    <string-array name="gamepad_ignore_mask_values" translatable="false">
+        <item>0</item>
+        <item>fffff</item>
+        <item>ffff</item>
+        <item>30000</item>
+        <item>c0000</item>
+        <item>f0000</item>
+    </string-array>
 </resources>
