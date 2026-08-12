@@ -51,6 +51,18 @@
         <item>@string/mappable_up</item>
         <item>@string/mappable_left</item>
         <item>@string/mappable_right</item>
+        <item>@string/mappable_c</item>
+        <item>@string/mappable_z</item>
+        <item>@string/mappable_mode</item>
+        <item>@string/mappable_assist</item>
+        <item>@string/mappable_app_switch</item>
+        <item>@string/mappable_dnd</item>
+        <item>@string/mappable_brightness_down</item>
+        <item>@string/mappable_brightness_up</item>
+        <item>@string/mappable_volume_down</item>
+        <item>@string/mappable_volume_up</item>
+        <item>@string/mappable_screenshot</item>
+        <item>@string/mappable_power</item>
     </string-array>
 
     <!-- Gamepad mappable values -->
@@ -74,5 +86,17 @@
         <item>up</item>
         <item>left</item>
         <item>right</item>
+        <item>c</item>
+        <item>z</item>
+        <item>mode</item>
+        <item>assist</item>
+        <item>app_switch</item>
+        <item>dnd</item>
+        <item>brightness_down</item>
+        <item>brightness_up</item>
+        <item>volume_down</item>
+        <item>volume_up</item>
+        <item>screenshot</item>
+        <item>power</item>
     </string-array>
 </resources>

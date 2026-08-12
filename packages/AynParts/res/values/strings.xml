@@ -45,6 +45,18 @@
     <string name="mappable_up" translatable="false">UP</string>
     <string name="mappable_left" translatable="false">LEFT</string>
     <string name="mappable_right" translatable="false">RIGHT</string>
+    <string name="mappable_c" translatable="false">C</string>
+    <string name="mappable_z" translatable="false">Z</string>
+    <string name="mappable_mode" translatable="false">MODE</string>
+    <string name="mappable_assist">Assistant</string>
+    <string name="mappable_app_switch">App switch</string>
+    <string name="mappable_dnd">Do not disturb</string>
+    <string name="mappable_brightness_down">Brightness down</string>
+    <string name="mappable_brightness_up">Brightness up</string>
+    <string name="mappable_volume_down">Volume down</string>
+    <string name="mappable_volume_up">Volume up</string>
+    <string name="mappable_screenshot">Screenshot</string>
+    <string name="mappable_power">Power</string>
 
     <!-- Joystick calibration -->
     <string name="joystick_category_title">Joystick</string>
