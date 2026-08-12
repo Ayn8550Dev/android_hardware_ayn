@@ -27,10 +27,10 @@
 
     <!-- Gamepad mappable entries -->
     <string name="mappable_none">None</string>
-    <string name="mappable_home">HOME</string>
-    <string name="mappable_select">SELECT</string>
-    <string name="mappable_start">START</string>
-    <string name="mappable_back">BACK</string>
+    <string name="mappable_home" translatable="false">HOME</string>
+    <string name="mappable_select" translatable="false">SELECT</string>
+    <string name="mappable_start" translatable="false">START</string>
+    <string name="mappable_back" translatable="false">BACK</string>
     <string name="mappable_a" translatable="false">A</string>
     <string name="mappable_b" translatable="false">B</string>
     <string name="mappable_x" translatable="false">X</string>
@@ -41,10 +41,10 @@
     <string name="mappable_r1" translatable="false">R1</string>
     <string name="mappable_r2" translatable="false">R2</string>
     <string name="mappable_r3" translatable="false">R3</string>
-    <string name="mappable_down">DOWN</string>
-    <string name="mappable_up">UP</string>
-    <string name="mappable_left">LEFT</string>
-    <string name="mappable_right">RIGHT</string>
+    <string name="mappable_down" translatable="false">DOWN</string>
+    <string name="mappable_up" translatable="false">UP</string>
+    <string name="mappable_left" translatable="false">LEFT</string>
+    <string name="mappable_right" translatable="false">RIGHT</string>
 
     <!-- Joystick calibration -->
     <string name="joystick_category_title">Joystick</string>
