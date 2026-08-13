@@ -7,15 +7,20 @@
     <!-- AynParts main -->
     <string name="aynparts_app_name" translatable="false">AynParts</string>
     <string name="ayn_panel_title">Gamepad</string>
-    <string name="ayn_panel_summary">Buttons, layout, joystick calibration</string>
+    <string name="ayn_panel_summary">Controls, calibration</string>
 
-    <!-- Gamepad layout category -->
-    <string name="gamepad_buttons_category_title">Buttons</string>
+    <!-- Gamepad controls category -->
+    <string name="gamepad_controls_category_title">Controls</string>
     <string name="gamepad_layout_title">Layout</string>
     <string name="gamepad_trigger_mode_title">Trigger mode</string>
     <string name="gamepad_mappable_0_title" translatable="false">M1</string>
     <string name="gamepad_mappable_1_title" translatable="false">M2</string>
     <string name="gamepad_ignore_mask_title">Ignore input</string>
+
+    <!-- Gamepad calibration category -->
+    <string name="gamepad_calibration_category_title">Calibration</string>
+    <string name="gamepad_joystick_calibration_title">Joysticks</string>
+    <string name="gamepad_joystick_calibration_summary">Calibrate analog sticks</string>
 
     <!-- Gamepad layout entries -->
     <string name="layout_xbox" translatable="false">Xbox</string>
@@ -67,10 +72,7 @@
     <string name="ignore_mask_sticks">Sticks</string>
     <string name="ignore_mask_triggers_sticks">Triggers and sticks</string>
 
-    <!-- Joystick calibration -->
-    <string name="joystick_category_title">Joystick</string>
-    <string name="joystick_calibration_title">Joystick calibration</string>
-    <string name="joystick_calibration_summary">Calibrate analog sticks</string>
+    <!-- Gamepad joystick calibration activity -->
     <string name="calibration_title">Joystick Calibration</string>
     <string name="calibration_intro_description">This wizard will calibrate your analog sticks:\n\n1. Center — leave both sticks relaxed\n2–3. Range — rotate each stick in full circles\n4–5. Deadzone — pull and release each stick several times\n\nEach step advances once enough data is collected.</string>
     <string name="calibration_start">Start</string>

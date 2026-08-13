@@ -9,10 +9,10 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/ayn_panel_title">
 
-    <!-- Gamepad buttons category -->
+    <!-- Gamepad controls category -->
     <PreferenceCategory
-        android:key="gamepad_buttons_category"
-        android:title="@string/gamepad_buttons_category_title">
+        android:key="gamepad_controls_category"
+        android:title="@string/gamepad_controls_category_title">
 
         <!-- Gamepad layout preference -->
         <org.lineageos.settings.ayn.preferences.NodeListPreference
@@ -62,16 +62,16 @@
             app:useSimpleSummaryProvider="true" />
     </PreferenceCategory>
 
-    <!-- Gamepad joystick category -->
+    <!-- Gamepad calibration category -->
     <PreferenceCategory
-        android:key="joystick_category"
-        android:title="@string/joystick_category_title">
+        android:key="gamepad_calibration_category"
+        android:title="@string/gamepad_calibration_category_title">
 
-        <!-- Joystick calibration preference  -->
+        <!-- Gamepad joystick calibration preference -->
         <Preference
-            android:key="joystick_calibration"
-            android:title="@string/joystick_calibration_title"
-            android:summary="@string/joystick_calibration_summary" >
+            android:key="gamepad_joystick_calibration"
+            android:title="@string/gamepad_joystick_calibration_title"
+            android:summary="@string/gamepad_joystick_calibration_summary" >
             <intent android:targetPackage="org.lineageos.settings.ayn"
                     android:targetClass="org.lineageos.settings.ayn.joystick.CalibrationActivity" />
         </Preference>
