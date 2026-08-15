@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="ayn_panel_summary">コントロール、調整</string>
+    <string name="gamepad_controls_category_title">コントロール</string>
+    <string name="gamepad_ignore_mask_title">入力を無視</string>
+    <string name="gamepad_calibration_category_title">補正</string>
+    <string name="gamepad_joystick_calibration_title">ジョイスティック</string>
+    <string name="gamepad_joystick_calibration_summary">アナログスティックを補正</string>
+    <string name="mappable_assist">アシスタント</string>
+    <string name="mappable_app_switch">アプリ切り替え</string>
+    <string name="mappable_dnd">サイレント</string>
+    <string name="mappable_brightness_down">明るさを下げる</string>
+    <string name="mappable_brightness_up">明るさを上げる</string>
+    <string name="mappable_volume_down">音量を下げる</string>
+    <string name="mappable_volume_up">音量を上げる</string>
+    <string name="mappable_screenshot">スクリーンショット</string>
+    <string name="mappable_power">電源</string>
+    <string name="ignore_mask_none">なし</string>
+    <string name="ignore_mask_all">すべて</string>
+    <string name="ignore_mask_buttons">ボタン</string>
+    <string name="ignore_mask_triggers">トリガー</string>
+    <string name="ignore_mask_sticks">スティック</string>
+    <string name="ignore_mask_triggers_sticks">トリガーとスティック</string>
+</resources>

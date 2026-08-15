@@ -5,25 +5,12 @@
 -->
 <resources>
     <string name="ayn_panel_title">Manette de jeu</string>
-    <string name="ayn_panel_summary">Boutons, agencement, calibrage du joystick</string>
-    <string name="gamepad_buttons_category_title">Boutons</string>
     <string name="gamepad_layout_title">Agencement</string>
     <string name="gamepad_trigger_mode_title">Mode de déclenchement</string>
     <string name="trigger_mode_both">Les deux</string>
     <string name="trigger_mode_analog">Analogique</string>
     <string name="trigger_mode_digital">Numérique</string>
     <string name="mappable_none">Aucun</string>
-    <string name="mappable_home">ACCUEIL</string>
-    <string name="mappable_select">SELECTIONNER</string>
-    <string name="mappable_start">DÉMARRER</string>
-    <string name="mappable_back">RETOUR</string>
-    <string name="mappable_down">BAS</string>
-    <string name="mappable_up">HAUT</string>
-    <string name="mappable_left">GAUCHE</string>
-    <string name="mappable_right">DROITE</string>
-    <string name="joystick_category_title">Joystick</string>
-    <string name="joystick_calibration_title">Calibrage du joystick</string>
-    <string name="joystick_calibration_summary">Calibrer les manettes analogiques</string>
     <string name="calibration_title">Calibrage du joystick</string>
     <string name="calibration_intro_description">Cet assistant va calibrer vos manettes analogiques :\n\n1. Centrage — laissez les deux manettes au repos\n2–3. Amplitude — faites tourner chaque manette en effectuant des cercles complets\n4–5. Zone morte — tirez et relâchez chaque manette plusieurs fois\n\nChaque étape passe à la suivante une fois qu’un nombre suffisant de données a été collecté.</string>
     <string name="calibration_start">Démarrer</string>

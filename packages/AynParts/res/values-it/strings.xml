@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="ayn_panel_title">Gamepad</string>
+    <string name="gamepad_layout_title">Layout</string>
+    <string name="gamepad_trigger_mode_title">Modalità trigger</string>
+    <string name="trigger_mode_both">Entrambi</string>
+    <string name="trigger_mode_analog">Analogico</string>
+    <string name="trigger_mode_digital">Digitale</string>
+    <string name="mappable_none">Nessuno</string>
+    <string name="calibration_title">Calibrazione joystick</string>
+    <string name="calibration_intro_description">Questa configurazione guidata calibrerà i tuoi stick analogici:\n\n1. Centro — lascia entrambi gli stick in posizione naturale\n2–3. Ampiezza — ruota ogni stick creando dei giri completi\n4–5. Zona morta — sposta e rilascia ogni stick diverse volte\n\nLa configurazione avanzerà automaticamente una volta che i vari step verranno completati con successo.</string>
+    <string name="calibration_start">Inizia</string>
+    <string name="calibration_cancel">Annulla</string>
+    <string name="calibration_phase_center_title">Step 1: Centro</string>
+    <string name="calibration_phase_center_desc">Lascia entrambi gli stick in posizione centrale senza toccarlo. \"Avanza\" apparirà quando la lettura sarà stabile.</string>
+    <string name="calibration_phase_range_left_title">Step 2: Ampiezza dello stick sinistro</string>
+    <string name="calibration_phase_range_left_desc">Ruota lentamente lo stick sinistro in cerchi completi, toccando tutte le estremità. \"Avanza\" apparirà quando abbastanza ampiezza è stata rilevata.</string>
+    <string name="calibration_phase_range_right_title">Step 3: Ampiezza dello stick destro</string>
+    <string name="calibration_phase_range_right_desc">Ruota lentamente lo stick destro in cerchi completi, toccando tutte le estremità. \"Avanza\" apparirà quando abbastanza ampiezza è stata rilevata.</string>
+    <string name="calibration_phase_deadzone_left_title">Step 4: Zona morta dello stick sinistro</string>
+    <string name="calibration_phase_deadzone_left_desc">Muovi lo stick sinistro verso un estremo e rilascialo. Ripeti l\'operazione almeno tre volte in direzioni diverse. \"Avanza\" apparirà una volta che abbastanza dati di assestamento saranno stati raccolti.</string>
+    <string name="calibration_phase_deadzone_right_title">Step 5: Zona morta dello stick destro</string>
+    <string name="calibration_phase_deadzone_right_desc">Muovi lo stick destro verso un estremo e rilascialo. Ripeti l\'operazione almeno tre volte in direzioni diverse. \"Avanza\" apparirà una volta che abbastanza dati di assestamento saranno stati raccolti.</string>
+    <string name="calibration_next">Avanza</string>
+    <string name="calibration_accept">Conferma</string>
+    <string name="calibration_retry">Riprova</string>
+    <string name="calibration_test_title">Prova la calibrazione</string>
+    <string name="calibration_test_desc">Confronta prima e dopo. Lo stick calibrato dovrebbe segnare il centro in modo preciso e poter raggiungere tutti gli estremi.</string>
+    <string name="calibration_test_before">Prima (non calibrato)</string>
+    <string name="calibration_test_after">Dopo (calibrato)</string>
+</resources>

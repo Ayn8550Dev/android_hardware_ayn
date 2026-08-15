@@ -5,25 +5,12 @@
 -->
 <resources>
     <string name="ayn_panel_title">Mando</string>
-    <string name="ayn_panel_summary">Botones, disposición, calibración del mando</string>
-    <string name="gamepad_buttons_category_title">Botones</string>
     <string name="gamepad_layout_title">Disposición</string>
     <string name="gamepad_trigger_mode_title">Modo de activación</string>
     <string name="trigger_mode_both">Ambos</string>
     <string name="trigger_mode_analog">Analógico</string>
     <string name="trigger_mode_digital">Digital</string>
     <string name="mappable_none">Ninguno</string>
-    <string name="mappable_home">INICIO</string>
-    <string name="mappable_select">SELECCIONAR</string>
-    <string name="mappable_start">EMPEZAR</string>
-    <string name="mappable_back">ATRÁS</string>
-    <string name="mappable_down">ABAJO</string>
-    <string name="mappable_up">ARRIBA</string>
-    <string name="mappable_left">IZQUIERDA</string>
-    <string name="mappable_right">DERECHA</string>
-    <string name="joystick_category_title">Mando</string>
-    <string name="joystick_calibration_title">Calibración del mando</string>
-    <string name="joystick_calibration_summary">Calibrar los mandos analógicos</string>
     <string name="calibration_title">Calibración del mando</string>
     <string name="calibration_intro_description">Este asistente calibrará tus mandos analógicos:\n\n1. Centrado: mantén ambos mandos en posición de reposo\n2–3. Amplitud: gira cada mando completando círculos completos\n4–5. Zona muerta: tira de cada mando y suéltalo varias veces\n\nCada paso avanzará una vez que se hayan recopilado suficientes datos.</string>
     <string name="calibration_start">Empezar</string>

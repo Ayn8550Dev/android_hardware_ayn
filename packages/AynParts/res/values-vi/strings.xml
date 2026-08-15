@@ -5,25 +5,12 @@
 -->
 <resources>
     <string name="ayn_panel_title">Tay cầm chơi game</string>
-    <string name="ayn_panel_summary">Các nút bấm, bố cục, hiệu chuẩn cần điều khiển</string>
-    <string name="gamepad_buttons_category_title">Nút bấm</string>
     <string name="gamepad_layout_title">Bố cục</string>
     <string name="gamepad_trigger_mode_title">Chế độ kích hoạt</string>
     <string name="trigger_mode_both">Cả hai</string>
     <string name="trigger_mode_analog">Analog</string>
     <string name="trigger_mode_digital">Kỹ thuật số</string>
     <string name="mappable_none">Không</string>
-    <string name="mappable_home">TRANG CHỦ</string>
-    <string name="mappable_select">CHỌN</string>
-    <string name="mappable_start">BẮT ĐẦU</string>
-    <string name="mappable_back">QUAY LẠI</string>
-    <string name="mappable_down">DƯỚI</string>
-    <string name="mappable_up">TRÊN</string>
-    <string name="mappable_left">TRÁI</string>
-    <string name="mappable_right">PHẢI</string>
-    <string name="joystick_category_title">Cần điều khiển</string>
-    <string name="joystick_calibration_title">Hiệu chỉnh cần điều khiển</string>
-    <string name="joystick_calibration_summary">Hiệu chỉnh cần điều khiển analog</string>
     <string name="calibration_title">Hiệu chỉnh cần điều khiển</string>
     <string name="calibration_intro_description">Trình hướng dẫn này sẽ hiệu chỉnh cần điều khiển analog của bạn:\n\n1. Trung tâm — để cả hai cần thả lỏng\n\n2–3. Phạm vi — xoay mỗi cần một vòng trọn vẹn\n\n4–5. Vùng chết — kéo và thả mỗi cần vài lần\n\nMỗi bước sẽ được chuyển tiếp khi thu thập đủ dữ liệu.</string>
     <string name="calibration_start">Bắt đầu</string>

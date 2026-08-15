@@ -5,25 +5,12 @@
 -->
 <resources>
     <string name="ayn_panel_title">בקר משחק</string>
-    <string name="ayn_panel_summary">לחצנים, פריסה, כיול ג\'ויסטיק</string>
-    <string name="gamepad_buttons_category_title">לחצנים</string>
     <string name="gamepad_layout_title">פריסה</string>
     <string name="gamepad_trigger_mode_title">מצב הדק</string>
     <string name="trigger_mode_both">שניהם</string>
     <string name="trigger_mode_analog">אנלוגי</string>
     <string name="trigger_mode_digital">דיגיטלי</string>
     <string name="mappable_none">ללא</string>
-    <string name="mappable_home">בית</string>
-    <string name="mappable_select">בחירה</string>
-    <string name="mappable_start">התחלה</string>
-    <string name="mappable_back">חזרה</string>
-    <string name="mappable_down">למטה</string>
-    <string name="mappable_up">למעלה</string>
-    <string name="mappable_left">שמאלה</string>
-    <string name="mappable_right">ימינה</string>
-    <string name="joystick_category_title">ג\'ויסטיק</string>
-    <string name="joystick_calibration_title">כיול ג\'ויסטיק</string>
-    <string name="joystick_calibration_summary">כיול מוטות אנלוגיים</string>
     <string name="calibration_title">כיול ג\'ויסטיק</string>
     <string name="calibration_intro_description">אשף זה יכייל את המוטות האנלוגיים שלך. \n\n1. מירכוז - יש להשאיר את שני המוטות רפויים.\n2-‏3. טווח - לסובב כל מוט היגוי במעגלים שלמים\n4-‏5. אזור מת - למשוך ולשחרר כל מוט היגוי מספר פעמים\n\nהשלבים מתקדמים ככל שנאספים מספיק נתונים.</string>
     <string name="calibration_start">התחלה</string>

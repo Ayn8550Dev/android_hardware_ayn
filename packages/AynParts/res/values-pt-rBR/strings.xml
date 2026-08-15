@@ -5,25 +5,12 @@
 -->
 <resources>
     <string name="ayn_panel_title">Controle</string>
-    <string name="ayn_panel_summary">Botões, layout, calibração do joystick</string>
-    <string name="gamepad_buttons_category_title">Botões</string>
     <string name="gamepad_layout_title">Layout</string>
     <string name="gamepad_trigger_mode_title">Modo do gatilho</string>
     <string name="trigger_mode_both">Ambos</string>
     <string name="trigger_mode_analog">Analógico</string>
     <string name="trigger_mode_digital">Digital</string>
     <string name="mappable_none">Nenhum</string>
-    <string name="mappable_home">HOME</string>
-    <string name="mappable_select">SELECT</string>
-    <string name="mappable_start">START</string>
-    <string name="mappable_back">BACK</string>
-    <string name="mappable_down">BAIXO</string>
-    <string name="mappable_up">CIMA</string>
-    <string name="mappable_left">ESQUERDA</string>
-    <string name="mappable_right">DIREITA</string>
-    <string name="joystick_category_title">Joystick</string>
-    <string name="joystick_calibration_title">Calibração do joystick</string>
-    <string name="joystick_calibration_summary">Calibrar controles analógicos</string>
     <string name="calibration_title">Calibração do joystick</string>
     <string name="calibration_intro_description">Este assistente irá calibrar seus joysticks analógicos:\n\n1. Centro — deixe ambos os joysticks relaxados\n2-3. Alcance — gire cada joystick em círculos completos\n4–5. Zona morta — puxe e solte cada joystick várias vezes\n\nCada passo avança assim que dados suficientes são coletados.</string>
     <string name="calibration_start">Iniciar</string>
