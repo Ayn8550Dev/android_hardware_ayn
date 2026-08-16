@@ -22,10 +22,6 @@ constructor(
 ) : ListPreference(context, attrs, defStyleAttr, defStyleRes) {
 
     private var nodePath: String? = null
-    private var siblingKey: String? = null
-
-    private val originalEntries = entries
-    private val originalValues = entryValues
 
     init {
         context.withStyledAttributes(
@@ -35,7 +31,6 @@ constructor(
             defStyleRes,
         ) {
             nodePath = getString(R.styleable.NodeListPreference_node)
-            siblingKey = getString(R.styleable.NodeListPreference_sibling)
         }
 
         setOnPreferenceChangeListener { _, newValue ->
@@ -49,28 +44,6 @@ constructor(
                 }
             } ?: false
         }
-    }
-
-    override fun onClick() {
-        siblingKey?.let { siblingKey ->
-            entries = originalEntries
-            entryValues = originalValues
-            val siblingValue = sharedPreferences?.getString(siblingKey, null)
-            val defaultValue = entryValues[0].toString()
-
-            if (siblingValue != defaultValue) {
-                val (validEntries, validValues) =
-                    entries
-                        .zip(entryValues)
-                        .filter { (_, value) -> value.toString() != siblingValue }
-                        .unzip()
-
-                entries = validEntries.toTypedArray()
-                entryValues = validValues.toTypedArray()
-            }
-        }
-
-        super.onClick()
     }
 
     override fun onAttached() {

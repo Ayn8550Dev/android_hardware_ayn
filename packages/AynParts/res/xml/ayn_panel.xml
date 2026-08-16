@@ -48,7 +48,6 @@
             android:entries="@array/gamepad_mappable_entries"
             android:entryValues="@array/gamepad_mappable_values"
             app:node="/sys/class/moorechip-joystick/joystick/m0_function"
-            app:sibling="gamepad_mappable_1"
             app:useSimpleSummaryProvider="true" />
 
         <!-- Gamepad mappable 1 preference -->
@@ -58,7 +57,6 @@
             android:entries="@array/gamepad_mappable_entries"
             android:entryValues="@array/gamepad_mappable_values"
             app:node="/sys/class/moorechip-joystick/joystick/m1_function"
-            app:sibling="gamepad_mappable_0"
             app:useSimpleSummaryProvider="true" />
 
         <!-- Gamepad ignore mask preference -->

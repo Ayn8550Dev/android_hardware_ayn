@@ -7,6 +7,5 @@
     <!-- NodeListPreference attributes -->
     <declare-styleable name="NodeListPreference">
         <attr name="node" format="string" />
-        <attr name="sibling" format="string" />
     </declare-styleable>
 </resources>
