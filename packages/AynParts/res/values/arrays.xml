@@ -30,6 +30,22 @@
         <item>digital</item>
     </string-array>
 
+    <!-- Gamepad digital trigger threshold entries -->
+    <string-array name="gamepad_digital_trigger_threshold_entries">
+        <item>@string/digital_trigger_threshold_half_press</item>
+        <item>@string/digital_trigger_threshold_quarter_press</item>
+        <item>@string/digital_trigger_threshold_three_quarters_press</item>
+        <item>@string/digital_trigger_threshold_full_press</item>
+    </string-array>
+
+    <!-- Gamepad digital trigger threshold values -->
+    <string-array name="gamepad_digital_trigger_threshold_values" translatable="false">
+        <item>127</item>
+        <item>63</item>
+        <item>189</item>
+        <item>230</item>
+    </string-array>
+
     <!-- Gamepad mappable entries -->
     <string-array name="gamepad_mappable_entries">
         <item>@string/mappable_none</item>

@@ -13,6 +13,7 @@
     <string name="gamepad_controls_category_title">Controls</string>
     <string name="gamepad_layout_title">Layout</string>
     <string name="gamepad_trigger_mode_title">Trigger mode</string>
+    <string name="gamepad_digital_trigger_threshold_title">Digital trigger threshold</string>
     <string name="gamepad_mappable_0_title" translatable="false">M1</string>
     <string name="gamepad_mappable_1_title" translatable="false">M2</string>
     <string name="gamepad_ignore_mask_title">Ignore input</string>
@@ -30,6 +31,12 @@
     <string name="trigger_mode_both">Both</string>
     <string name="trigger_mode_analog">Analog</string>
     <string name="trigger_mode_digital">Digital</string>
+
+    <!-- Gamepad digital trigger threshold entries -->
+    <string name="digital_trigger_threshold_half_press">Half press</string>
+    <string name="digital_trigger_threshold_quarter_press">Quarter press</string>
+    <string name="digital_trigger_threshold_three_quarters_press">Three quarters press</string>
+    <string name="digital_trigger_threshold_full_press">Full press</string>
 
     <!-- Gamepad mappable entries -->
     <string name="mappable_none">None</string>
