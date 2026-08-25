@@ -47,6 +47,7 @@
             android:title="@string/gamepad_mappable_0_title"
             android:entries="@array/gamepad_mappable_entries"
             android:entryValues="@array/gamepad_mappable_values"
+            android:defaultValue="c"
             app:node="/sys/class/moorechip-joystick/joystick/m0_function"
             app:useSimpleSummaryProvider="true" />
 
@@ -56,7 +57,7 @@
             android:title="@string/gamepad_mappable_1_title"
             android:entries="@array/gamepad_mappable_entries"
             android:entryValues="@array/gamepad_mappable_values"
-            android:defaultValue="c"
+            android:defaultValue="z"
             app:node="/sys/class/moorechip-joystick/joystick/m1_function"
             app:useSimpleSummaryProvider="true" />
 
@@ -65,7 +66,6 @@
             android:key="gamepad_ignore_mask"
             android:title="@string/gamepad_ignore_mask_title"
             android:entries="@array/gamepad_ignore_mask_entries"
-            android:defaultValue="z"
             android:entryValues="@array/gamepad_ignore_mask_values"
             app:node="/sys/class/moorechip-joystick/joystick/ignore_mask"
             app:useSimpleSummaryProvider="true" />
