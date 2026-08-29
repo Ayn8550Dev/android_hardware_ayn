@@ -19,6 +19,7 @@ import android.provider.SearchIndexablesContract.INDEXABLES_RAW_COLUMNS
 import android.provider.SearchIndexablesContract.INDEXABLES_XML_RES_COLUMNS
 import android.provider.SearchIndexablesContract.NON_INDEXABLES_KEYS_COLUMNS
 import android.provider.SearchIndexablesProvider
+import org.lineageos.settings.ayn.utils.NodeUtils
 
 class ConfigPanelSearchIndexablesProvider : SearchIndexablesProvider() {
     override fun onCreate(): Boolean = true
@@ -34,7 +35,13 @@ class ConfigPanelSearchIndexablesProvider : SearchIndexablesProvider() {
     }
 
     override fun queryNonIndexableKeys(projection: Array<String?>?): Cursor {
-        return MatrixCursor(NON_INDEXABLES_KEYS_COLUMNS)
+        return MatrixCursor(NON_INDEXABLES_KEYS_COLUMNS).apply {
+            NODE_PREFERENCES.forEach { (key, nodePath) ->
+                if (!NodeUtils.exists("$JOYSTICK_PATH/$nodePath")) {
+                    addRow(arrayOf(key))
+                }
+            }
+        }
     }
 
     private fun generateResourceRef(sir: SearchIndexableResource): Array<Any?> {
@@ -51,6 +58,18 @@ class ConfigPanelSearchIndexablesProvider : SearchIndexablesProvider() {
 
     companion object {
         private const val TAG = "ConfigPanelSearchIndexablesProvider"
+
+        private const val JOYSTICK_PATH = "/sys/class/moorechip-joystick/joystick"
+
+        private val NODE_PREFERENCES =
+            mapOf(
+                "gamepad_layout" to "layout",
+                "gamepad_trigger_mode" to "triggers",
+                "gamepad_digital_trigger_threshold" to "digital_trigger_threshold",
+                "gamepad_mappable_0" to "m0_function",
+                "gamepad_mappable_1" to "m1_function",
+                "gamepad_ignore_mask" to "ignore_mask",
+            )
 
         private val INDEXABLE_RES =
             arrayOf<SearchIndexableResource>(
