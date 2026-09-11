@@ -69,6 +69,12 @@
             android:entryValues="@array/gamepad_ignore_mask_values"
             app:node="/sys/class/moorechip-joystick/joystick/ignore_mask"
             app:useSimpleSummaryProvider="true" />
+
+        <!-- Gamepad remapping preference -->
+        <Preference
+          android:key="gamepad_remapping"
+          android:title="@string/gamepad_remapping_title"
+          android:summary="@string/gamepad_remapping_summary" />
     </PreferenceCategory>
 
     <!-- Gamepad calibration category -->
